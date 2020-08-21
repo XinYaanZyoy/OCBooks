@@ -16,3 +16,5 @@ if you're seeking something complete and rigorous set of subjects, forming a web
 
 ____________________
 author: [XinYaanZyoy](https://XinYaanZyoy.github.io)
+
+Copyright: these notes are my own, but if you think i'm violating any law for any of the content under (and not above) https://xinyaanzyoy.github.io/onlinecoursenotes/, kindly contact me at XinYaanZyoy@gmail.com
