@@ -1,5 +1,7 @@
 ---
 title: Bioinformatics
+permalink: /bioinformatics
+
 ---
 
 # Bioinformatics
