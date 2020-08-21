@@ -1,5 +1,7 @@
 ---
 title: Online Course Notes 
+layout: default
+
 ---
 ## these are notes written by myself while taking online courses.
 
