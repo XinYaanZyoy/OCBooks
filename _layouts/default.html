@@ -16,7 +16,6 @@
     <meta name="theme-color" content="#000000" />
 	  <meta property="og:image" content="{{site.logo}}">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-	      {% feed_meta %}
      <!-- Web Application Manifest -->
 	<link rel="manifest" href="manifest.webmanifest">
 	
@@ -34,12 +33,9 @@
 	<!-- Tile icon for Win8 -->
 	<meta name="msapplication-TileColor" content="grey">
 	<meta name="msapplication-navbutton-color" content="grey">
-{% seo %}
-	   {% include adsense.html %}
   </head>
 
   <body>
-{% include header.html %}
 	  <hr>
     <header>
       <div class="container" style="text-align:center">
@@ -54,6 +50,5 @@
       </section>
     </div>
    <hr>
-	  {% include footer.html %}
   </body>
 </html>
