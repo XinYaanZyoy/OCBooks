@@ -35,25 +35,27 @@
 	<meta name="msapplication-navbutton-color" content="grey">
 	  
 	  <script>
-		url = document.URL;
-    console.log(url);
-    x = [];
-    url.split('/').forEach((e)=>{if(e!="")x.push(e)});
-    if(x.length == 4){
-        name = x.pop();
-        tag = document.getElementById("nav");
-        y = "<a href=\"\/onlinecoursenotes\/"+name+"\">"+name+"</a>";
-	tag.innerHTML = y;
-    }
-    if(x.length > 4){
-        name1 = x[3];
-        name2 = x.pop().split('.');
-        name2.pop();
-        name2 = name2.join('.');
-        tag = document.getElementById("nav");
-        y = "<a href=\"\/onlinecoursenotes\/" + name1 + "\">" + name1 + "</a> / <a href=\"" + document.URL + "\">" + name2 + "</a>";
-	tag.innerHTML = y;
-    }
+	  document.onload = ()=>{
+	url = document.URL;
+	    console.log(url);
+	    x = [];
+	    url.split('/').forEach((e)=>{if(e!="")x.push(e)});
+	    if(x.length == 4){
+		name = x.pop();
+		tag = document.getElementById("nav");
+		y = "<a href=\"\/onlinecoursenotes\/"+name+"\">"+name+"</a>";
+		tag.innerHTML = y;
+	    }
+	    if(x.length > 4){
+		name1 = x[3];
+		name2 = x.pop().split('.');
+		name2.pop();
+		name2 = name2.join('.');
+		tag = document.getElementById("nav");
+		y = "<a href=\"\/onlinecoursenotes\/" + name1 + "\">" + name1 + "</a> / <a href=\"" + document.URL + "\">" + name2 + "</a>";
+		tag.innerHTML = y;
+	    }
+	  }
 	  </script>
   </head>
 
