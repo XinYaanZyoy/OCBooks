@@ -39,7 +39,7 @@
 	  <hr>
     <header>
       <div class="container" style="text-align:center">
-        <h1> <a href="/onlinecoursenotes">{{ page.title | default: site.github.repository_name }}</a>/<a href="#">{{page.path}} & {{page.url}}</a> </h1>
+        <h1 id="nav"> <a href="/onlinecoursenotes">{{ page.title | default: site.github.repository_name }}</a>/<a href="#">{{page.path}} & {{page.url}}</a> </h1>
         <h2><a class="icon" href="https://XinYaanZyoy.github.io">XinYaanZyoy</a>'s {{ page.description | default: site.github.project_tagline }}</h2>
       </div>
     </header>
@@ -50,5 +50,31 @@
       </section>
     </div>
    <hr>
+	window.onload = ()=>{
+    url = document.URL;
+    console.log(url);
+    x = [];
+    url.split('/').forEach((e)=>{if(e!="")x.push(e)});
+    console.log(x);
+    if(x.length == 4){
+        name = x.pop();
+        console.log(name);
+        tag = document.getElementById("nav");
+        y = "<a href=\"\/onlinecoursenotes\/"+name+"\">"+name+"</a>"
+        console.log(y);
+        tag.innerHTML = y;
+    }
+    if(x.length>4){
+        name1 = x[3];
+        name2 = x.pop().split('.');
+        name2.pop();
+        name2 = name2.join('.');
+        console.log(name1, name2);
+        tag = document.getElementsByTagName("h1")[0];
+        y = "<a href=\"\/onlinecoursenotes\/"+name1+"\">"+name1+"</a> / <a href=\""+url+"\">"+name2+"</a>";
+        console.log(y);
+        tag.innerHTML = y;
+    }
+}
   </body>
 </html>
