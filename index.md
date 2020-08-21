@@ -1,3 +1,6 @@
+---
+title: Online Course Notes 
+---
 ## these are notes written by myself while taking online courses.
 
 **LIST OF NOTES**
