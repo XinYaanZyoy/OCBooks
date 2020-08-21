@@ -33,25 +33,9 @@
 	<!-- Tile icon for Win8 -->
 	<meta name="msapplication-TileColor" content="grey">
 	<meta name="msapplication-navbutton-color" content="grey">
-  </head>
-
-  <body>
-	  <hr>
-    <header>
-      <div class="container" style="text-align:center">
-        <h1 id="nav"> <a href="/onlinecoursenotes">{{ page.title | default: site.github.repository_name }}</a>/<a href="#">{{page.path}} & {{page.url}}</a> </h1>
-        <h2><a class="icon" href="https://XinYaanZyoy.github.io">XinYaanZyoy</a>'s {{ page.description | default: site.github.project_tagline }}</h2>
-      </div>
-    </header>
-
-    <div class="container">
-      <section id="main_content">
-        {{ content }}
-      </section>
-    </div>
-   <hr>
-	document.onload = ()=>{
-    url = document.URL;
+	  
+	  <script>
+		url = document.URL;
     console.log(url);
     x = [];
     url.split('/').forEach((e)=>{if(e!="")x.push(e)});
@@ -75,6 +59,23 @@
         console.log(y);
         tag.innerHTML = y;
     }
-}
+	  </script>
+  </head>
+
+  <body>
+	  <hr>
+    <header>
+      <div class="container" style="text-align:center">
+        <h1 id="nav"> <a href="/onlinecoursenotes">{{ page.title | default: site.github.repository_name }}</a>/<a href="#">{{page.path}} & {{page.url}}</a> </h1>
+        <h2><a class="icon" href="https://XinYaanZyoy.github.io">XinYaanZyoy</a>'s {{ page.description | default: site.github.project_tagline }}</h2>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        {{ content }}
+      </section>
+    </div>
+   <hr>
   </body>
 </html>
