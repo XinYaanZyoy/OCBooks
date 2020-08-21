@@ -41,7 +41,7 @@
 	  <hr>
     <header>
       <div class="container" style="text-align:center">
-        <h1 id="nav"> <a href="/onlinecoursenotes">{{ site.github.repository_name }}</a> </h1>
+        <h1 id="nav">  </h1>
         <h2><a class="icon" href="https://XinYaanZyoy.github.io">XinYaanZyoy</a>'s {{ page.description | default: site.github.project_tagline }}</h2>
       </div>
     </header>
@@ -53,15 +53,14 @@
     </div>
    <hr>
 	  <script>
-	url = document.URL;
-	    console.log(url);
+	    url = document.URL;
 	    x = [];
 	    url.split('/').forEach((e)=>{if(e!="")x.push(e)});
 	    if(x.length == 4){
 		name = x.pop();
 		tag = document.getElementById("nav");
 		y = "<a href=\"\/onlinecoursenotes\/"+name+"\">"+name+"</a>";
-		tag.innerHTML = y;
+		tag.innerHTML = "<a href=\"\/onlinecoursenotes\">onlinecoursenotes</a>" + y;
 	    }
 	    if(x.length > 4){
 		name1 = x[3];
@@ -70,7 +69,7 @@
 		name2 = name2.join('.');
 		tag = document.getElementById("nav");
 		y = "<a href=\"\/onlinecoursenotes\/" + name1 + "\">" + name1 + "</a> / <a href=\"" + document.URL + "\">" + name2 + "</a>";
-		tag.innerHTML = y;
+		tag.innerHTML = "<a href=\"\/onlinecoursenotes\">onlinecoursenotes</a>" + y;
 	    }
 	  </script>
   </body>
