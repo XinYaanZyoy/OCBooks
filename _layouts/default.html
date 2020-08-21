@@ -42,7 +42,8 @@
     if(x.length == 4){
         name = x.pop();
         tag = document.getElementById("nav");
-        y = "<a href=\"\/onlinecoursenotes\/"+name+"\">"+name+"</a>"
+        y = "<a href=\"\/onlinecoursenotes\/"+name+"\">"+name+"</a>";
+	tag.innerHTML = y;
     }
     if(x.length > 4){
         name1 = x[3];
@@ -51,11 +52,8 @@
         name2 = name2.join('.');
         tag = document.getElementById("nav");
         y = "<a href=\"\/onlinecoursenotes\/" + name1 + "\">" + name1 + "</a> / <a href=\"" + document.URL + "\">" + name2 + "</a>";
-    }
-		  
-     document.onload = ()=>{
 	tag.innerHTML = y;
-     }
+    }
 	  </script>
   </head>
 
