@@ -34,8 +34,25 @@
 	<meta name="msapplication-TileColor" content="grey">
 	<meta name="msapplication-navbutton-color" content="grey">
 	  
+	  
+  </head>
+
+  <body>
+	  <hr>
+    <header>
+      <div class="container" style="text-align:center">
+        <h1 id="nav"> <a href="/onlinecoursenotes">{{ site.github.repository_name }}</a> </h1>
+        <h2><a class="icon" href="https://XinYaanZyoy.github.io">XinYaanZyoy</a>'s {{ page.description | default: site.github.project_tagline }}</h2>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        {{ content }}
+      </section>
+    </div>
+   <hr>
 	  <script>
-	  document.onload = ()=>{
 	url = document.URL;
 	    console.log(url);
 	    x = [];
@@ -55,24 +72,6 @@
 		y = "<a href=\"\/onlinecoursenotes\/" + name1 + "\">" + name1 + "</a> / <a href=\"" + document.URL + "\">" + name2 + "</a>";
 		tag.innerHTML = y;
 	    }
-	  }
 	  </script>
-  </head>
-
-  <body>
-	  <hr>
-    <header>
-      <div class="container" style="text-align:center">
-        <h1 id="nav"> <a href="/onlinecoursenotes">{{ site.github.repository_name }}</a> </h1>
-        <h2><a class="icon" href="https://XinYaanZyoy.github.io">XinYaanZyoy</a>'s {{ page.description | default: site.github.project_tagline }}</h2>
-      </div>
-    </header>
-
-    <div class="container">
-      <section id="main_content">
-        {{ content }}
-      </section>
-    </div>
-   <hr>
   </body>
 </html>
