@@ -1,3 +1,9 @@
+---
+title: Bioinformatics
+permalink: /bioinformatics
+---
+
 # Bioinformatics
 
-[notes/week1/1.1.md](1.1)
+- week1
+  - [1.1](/week1/1.1.md)
