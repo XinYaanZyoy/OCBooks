@@ -1,7 +1,7 @@
-set mydate=%date%
-echo timestamp: %mydate%
+set timestamp=%time%
+echo timestamp: %timestamp%
 git add .
 git status
-git commit -m %mydate%
+git commit -m %timestamp%
 git status
 git push origin master
