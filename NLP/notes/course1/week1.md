@@ -32,6 +32,5 @@ btw, `+1` in `n+1` corresponds to some extra dimension, bias?, idk! but i imagin
 **THE IDEA**
 > try to reduce the dimensionality of vecs which represents our tweets, by introducing something called frequency table, you take your "training dataset" in which you already know what the labels are, `1` and `0` in our case for positive and negative tweet, build two tables which maps 2-touple (word, `1`) and (word, `0`) to "number of times that word appears in a tweet" with label `1` and `0` respectively. now define a 1D vec for a subject tweet as the followin;
 {% raw %}
- \newcommand\colv[1]{\begin{bmatrix}#1\end{bmatrix}}
-  $$ X_m = \colv{1\\3} $$
+  $$ X_m = \begin{bmatrix} 1 \\ 3 \end{bmatrix} $$
 {% endraw %}
