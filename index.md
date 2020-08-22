@@ -19,6 +19,11 @@ ________________
 
 if you're seeking something complete and rigorous set of subjects, forming a web of all the nodes being various subjects on this planet, checkout my another hosted notebooks collections [Koham](https://XinYaanZyoy.github.io/KoHam)
 
+
+**REFS**
+- [MathJax Docs](http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm)
+
+
 ____________________
 author: [XinYaanZyoy](https://XinYaanZyoy.github.io)
 

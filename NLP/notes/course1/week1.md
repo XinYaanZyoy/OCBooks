@@ -84,9 +84,9 @@ to generate the well known english stop words i did the following;
 > {"aren't", 'once', 've', 'most', 'do', 'against', 'only', "it's", 'what', 'of', 'some', "didn't", 'any', 'such', 'weren', 'with', 'am', 'them', 'isn', 'until', 'between', 'into', 'then', 'an', 'does', 'don', 'so', 'yours', 'wasn', 'was', "doesn't", "mustn't", 'have', "won't", 'very', "you'll", 'did', 'a', "isn't", 'ours', 'were', 'both', 'too', 'itself', 'ma', 'the', 'on', 'because', "wouldn't", 'didn', 'when', 'haven', 'just', "should've", 'before', 'for', "shan't", 'about', 'its', 'shouldn', 'where', 'same', 'your', 'needn', 'my', 'who', 'they', 'mustn', 'by', 'now', 'themselves', 'hers', 'from', 'theirs', 'in', 'nor', 'yourself', 'if', 'wouldn', 'i', 'd', 'shan', 'below', 'be', 'each', 'her', 'no', 't', 'not', 'y', 'why', 'than', 'been', "haven't", 'all', 'or', 'ourselves', 'she', 'has', 'here', "weren't", 'o', 'after', 'while', 'this', 'll', 'it', 'whom', 'under', 'doesn', 'can', "she's", 'is', "shouldn't", 'over', "couldn't", 'again', 'which', 're', 'he', 'that', "needn't", 'myself', "you've", "you'd", "that'll", 'me', 'himself', 'aren', 'there', 'those', 'had', 'we', 's', 'during', 'other', 'these', 'herself', 'having', 'will', 'm', 'but', 'through', 'should', "don't", 'hasn', 'doing', 'mightn', 'more', 'and', 'you', "hasn't", 'him', 'to', "you're", 'yourselves', 'how', 'hadn', 'off', 'ain', 'above', 'further', "hadn't", "mightn't", 'as', 'at', 'out', 'our', "wasn't", 'their', 'own', 'being', 'up', 'are', 'down', 'couldn', 'few', 'won', 'his'}
 > ```
 
-we can also eliminate other symbols such as hashtags or only hashes (`#`), mentions or only ats (`@`), any any other symbols, it depends on the dataset and out goal, what should be and what shouldn't be eliminated!
+we can also eliminate other symbols such as hashtags or only hashes (`#`), mentions or only ats (`@`), any any other symbols, it depends on the dataset and out goal, what should be and what shouldn't be eliminated! should we eliminate emojis or emoticons?
 
-also, the capitals or lower cased, verbs' tense or any prefixes and sufixes doesn't need to be in our game either! so we eliminate them as well, but how?
+also, the capitals or lower cased, verbs' tense or any prefixes and sufixes doesn't need to be in our game either! so we STEM them, but how?
 
 it's called **STEMMING**, we stem out the suffixes and prefixes to get the stems, before that we lower all the capitals. [here](https://tartarus.org/martin/PorterStemmer/) is stemming algo.
 
@@ -97,7 +97,7 @@ _______________________
 
 ## Ungraded Lab: NLP
 notebook itself speak a lot, i think i don't need to write any comments on it!
-[NLP_C1_W1_lecture_nb_01](https://github.com/XinYaanZyoy/onlinecoursenotes/blob/master/NLP/data/NLP_C1_W1_lecture_nb_01.ipynb)
+[NLP_C1_W1_lecture_nb_01](https://github.com/XinYaanZyoy/onlinecoursenotes/blob/master/NLP/data/notebooks/NLP_C1_W1_lecture_nb_01.ipynb)
 
 here's steps taken in it;
 
@@ -125,11 +125,26 @@ __________________________
 
 
 ## Putting all Together
+now let's build a matrix out of all these vecs, put all these `3D` vecs representing tweets, let there be m tweets, so the matrix will be of shape $ mx3 $ .
 
+**Equations**:
 {% raw %}
   let 
-  $$ X_0(m) \buildrel \rm def \over {:=} \sum_{w in m} count(w, 0) $$
+  $$ X_0(m) \buildrel \rm def \over {:=} \sum_{w in m} count(w, 0) $$ , and 
   $$ X_1(m) \buildrel \rm def \over {:=} \sum_{w in m} count(w, 1) $$
 
   $$ X(m) \buildrel \rm def \over {:=} \begin{bmatrix} 1 & X_0(0) & X_1(0) \\ 1 & X_0(1) & X_1(1) \\ 1 & X_1(2) & X_1(2) \\ \vdots & \vdots & \vdots \\ 1 & X_0(m-1) & X_1(m-1) \end{bmatrix} $$
 {% endraw %}
+
+in short the process will be;
+
+1. build freq dict (table)
+2. initialize null matrix of size $mx3$
+3. process all the tweets and extrct its features
+
+________________
+
+
+## Ungraded Lab: Visualizing word frequencies
+it's straight forward,
+[NLP_C1_W1_lecture_nb_02](https://github.com/XinYaanZyoy/onlinecoursenotes/blob/master/NLP/data/notebooks/NLP_C1_W1_lecture_nb_02.ipynb), though it's already in the notebook, i've downloaded the module [utils.py](https://github.com/XinYaanZyoy/onlinecoursenotes/blob/master/NLP/data/scripts/utils.py) from the course.
