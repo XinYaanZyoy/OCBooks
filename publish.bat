@@ -1,4 +1,4 @@
-set timestamp=%time%+%date%
+set timestamp=%time%@%date%
 echo timestamp: %timestamp%
 git add .
 git status

@@ -22,14 +22,16 @@ E.g;
 **THE IDEA**:
 > define a vocab by listing all the words appearing in your dataset; e.g. list of words in list of tweets(corpus), these are features extracted, then loop over to this vocab and see which words appear in subject tweet from vocab, assign `1` for appearance and `0` for otherwise, this is your vector represeting the subject tweet. 
 
-since this kind of 1D matrix has lots of 0s it's called sparse matrix. logistic regressinal classifier has to learn `n+1` parameters if size of your vocab was `n`. hence this is not a good idea for vocab of bigger sizes.
+logistic regressinal classifier has to learn `n+1` parameters if size of your vocab was `n`. 
+since this kind of 1D matrix has lots of 0s it's called sparse matrix. 
+hence this kind of sparse vector is not a good idea for vocab of bigger sizes.
+btw, `+1` in `n+1` corresponds to some extra dimension, bias?, idk! but i imagine it as a unit plane on `n+1th` dimension, we point all of our `n` vecs on this plane, idk why! but i think it's to include the posibilty of vector addition as a linear operation may be! idk how it connects to our problem! let's wait this might resolve in future notes.
 
+## How do we reduce the dimensionality?
+
+**THE IDEA**
+> try to reduce the dimensionality of vecs which represents our tweets, by introducing something called frequency table, you take your "training dataset" in which you already know what the labels are, `1` and `0` in our case for positive and negative tweet, build two tables which maps 2-touple (word, `1`) and (word, `0`) to "number of times that word appears in a tweet" with label `1` and `0` respectively. now define a 1D vec for a subject tweet as the followin;
 {% raw %}
-  $$E=mc^2$$
-
-  E=mc^2
+ \newcommand\colv[1]{\begin{bmatrix}#1\end{bmatrix}}
+  $$ X_m = \colv{1\\3} $$
 {% endraw %}
-
-$$E=mc^2$$
-
-E=mc^2
