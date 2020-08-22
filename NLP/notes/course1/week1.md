@@ -25,5 +25,15 @@ E.g;
 since this kind of 1D matrix has lots of 0s it's called sparse matrix. logistic regressinal classifier has to learn `n+1` parameters if size of your vocab was `n`. hence this is not a good idea for vocab of bigger sizes.
 
 {% raw %}
-  $$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping! 
+  $$a^2 + b^2 = c^2$$ 
 {% endraw %}
+
+# $$a^2 + b^2 = c^2$$
+
+> $$a^2 + b^2 = c^2$$
+
+```
+$$a^2 + b^2 = c^2$$
+```
+
+**$$a^2 + b^2 = c^2$$**
