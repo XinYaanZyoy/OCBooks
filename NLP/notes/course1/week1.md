@@ -29,7 +29,7 @@ _______________________________________
 **Equation**
 A `(n+1)D` vec rep of mth tweet of a corpus
 {% raw %}
-    $$ X_m = \begin{bmatrix} 1 \\ ... \\ 1s or 0s n times \end{bmatrix} $$
+  $$ X_m = \begin{bmatrix} 1 \\ \sum_w count(w, 1) \\ \sum_w count(w, 0) \end{bmatrix} $$
 {% endraw %}
 
 logistic regressinal classifier has to learn `n+1` parameters if size of your vocab was `n`. 
