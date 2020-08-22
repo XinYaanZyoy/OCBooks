@@ -88,7 +88,7 @@ we can also eliminate other symbols such as hashtags or only hashes (`#`), menti
 
 also, the capitals or lower cased, verbs' tense or any prefixes and sufixes doesn't need to be in our game either! so we eliminate them as well, but how?
 
-it's called **STEMMING**, we stem out the suffixes and prefixes to get the stems, before that we lower all the capitals.
+it's called **STEMMING**, we stem out the suffixes and prefixes to get the stems, before that we lower all the capitals. [here](https://tartarus.org/martin/PorterStemmer/) is stemming algo.
 
 hence, the words "AI", "Ai" "ai", "aI" are similar in a sentimental way! (should we count capitals as a measure of extra positivity or negativity according to the corresponding tweet? let's make it simpler and don't do it!)
 
@@ -97,5 +97,26 @@ _______________________
 
 ## Ungraded Lab: NLP
 notebook itself speak a lot, i think i don't need to write any comments on it!
-(i don't know if i)
 [NLP_C1_W1_lecture_nb_01](https://github.com/XinYaanZyoy/onlinecoursenotes/NLP/data/NLP_C1_W1_lecture_nb_01.ipynb)
+
+here's steps taken in it;
+
+1. import nltk for NLP
+2. import twitter_smaples from nltk corpus for dataset
+3. import pyplot from matplotlib for plotting
+4. import random for random generation of numbers
+5. download twitter_samples from nltk for dataset
+6. fetch positive and negative tweets jsons
+7. understand the structure of dataset
+8. plot a pie chart for these two classes
+9. download stopwords from nltk
+10. import re for real expression operations
+11. import string for string operations
+12. import stopwords from nltk corpus to get list
+13. import porterStemmer from nltk stem for stemming using porter stemming algo
+14. import TweetTokenizer to get list of words
+15. remove hyperlinks, RTs, and #s
+16. tokenize the string
+17. remove the stop words and punctuations
+18. stem the list of words using porter stemming
+19. import process_tweet from utils, it solves 18 steps in one call. (you need to get the path right to do this!)

@@ -5,7 +5,7 @@ layout: default
 ---
 ## these are notes written by myself while taking online courses.
 
-**DISCLAIMER**: *these notes doesn't include solutions to any quizzes or assignments of any courses, nor does it guide, instead these are a neat and descriptive essays after what i learned from the courses!*
+**DISCLAIMER**: *these notes doesn't include solutions to any quizzes or assignments of any courses, instead these are a neat and descriptive essays after what i learned from the courses! it does; however, include **a guide** to those graded assignments in a general sense; still if you find anything inappropriate here kindly contact me at XinYaanZyoy@gmail.com*
 
 **LIST OF NOTES**
 - [Bioinformatics](/onlinecoursenotes/bioinformatics)
