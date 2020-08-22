@@ -17,7 +17,7 @@ E.g;
     3. then use your classifier!
 
 
-## How extract the features out of datasets?
+## How to extract the features out of datasets?
 
 **THE IDEA**:
 > define a vocab by listing all the words appearing in your dataset; e.g. list of words in list of tweets, these are features extracted, then loop over to this vocab and see which words appear in it from vocab, assign 1 for appearance and 0 for otherwise, this is your vector represeting the subject tweet. 
