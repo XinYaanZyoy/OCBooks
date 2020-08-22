@@ -30,7 +30,7 @@ _______________________________________
 
 A `(n+1)D` vec rep of mth tweet of a corpus
 {% raw %}
-  $$ X_m = \begin{bmatrix} 1 \\ \vdots \\ n \thinmuskip 1s \thinmuskip and \thinmuskip 0s \end{bmatrix} $$
+  $$ X_m = \begin{bmatrix} 1 \\ \vdots \\ n^{th}-comp \end{bmatrix} $$
 {% endraw %}
 
 logistic regressinal classifier has to learn `n+1` parameters if size of our vocab was `n`. 
@@ -97,7 +97,7 @@ _______________________
 
 ## Ungraded Lab: NLP
 notebook itself speak a lot, i think i don't need to write any comments on it!
-[NLP_C1_W1_lecture_nb_01](https://github.com/XinYaanZyoy/onlinecoursenotes/NLP/data/NLP_C1_W1_lecture_nb_01.ipynb)
+[NLP_C1_W1_lecture_nb_01](https://github.com/XinYaanZyoy/onlinecoursenotes/blob/master/NLP/data/NLP_C1_W1_lecture_nb_01.ipynb)
 
 here's steps taken in it;
 
