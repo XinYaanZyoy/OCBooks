@@ -46,7 +46,7 @@ _____________________________
 let's try to reduce the dimensionality of vecs which represents our tweets to reduce the complexity of the problem.
 
 **THE IDEA**:
-> define the so-called frequency table, you take your "training dataset" in which you already know what the labels are, `1` and `0` in our case for positive and negative tweet, build two tables which maps 2-touple (word, `1`) and (word, `0`) to "number of times that word appears in a tweet" with label `1` and `0` respectively. then define a 3D vec for a subject tweet with entries 1, positive freq, and negative freq! now a tweet is represented by a `3D` vec instead of a `(n+1)D`!
+> define the so-called frequency table, you take your "training dataset" in which you already know what the labels are, `1` and `0` in our case for positive and negative tweet, build two tables which maps `2-touple` `(word, 1)` and `(word, 0)` to "*number of times that word appears in a tweet*" with label `1` and `0` respectively. then define a `3D` vec for a subject tweet with entries `1`, `positive freq`, and `negative freq`! now a tweet is represented by a `3D` vec instead of a `(n+1)D`!
 
 **Equation**
 A `3D` vec rep of mth tweet of a corpus
