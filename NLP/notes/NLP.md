@@ -15,7 +15,7 @@ permalink: /NLP
 - End Date:
 - final certificate:
 
-**DISCLAIMER**: *i don't know if i'm doing the wrong thing by having the ungraded assignments (.ipynb) in [here](), i've searched online about this, all i found was "you're breaking Coursera Honor Code if you're uploading **Solutions to Assignments** to your github repo", i don't think the case of uploading ungrded assignments would be affected by this honor code, still if you find anything inappropriate here kindly contact me at XinYaanZyoy@gmail.com*
+**DISCLAIMER**: *i don't know if i'm doing the wrong thing by having the ungraded assignments (.ipynb) in [here](https://github.com/XinYaanZyoy/onlinecoursenotes/tree/master/NLP/data), i've searched online about this, all i found was "you're breaking Coursera Honor Code if you're uploading **Solutions to Assignments** to your github repo", i don't think the case of uploading ungrded assignments would be affected by this honor code, still if you find anything inappropriate here kindly contact me at XinYaanZyoy@gmail.com*
 
 ______________
 ## INDEX
