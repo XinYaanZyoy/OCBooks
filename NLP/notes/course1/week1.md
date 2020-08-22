@@ -127,8 +127,9 @@ __________________________
 ## Putting all Together
 
 {% raw %}
-  $$ X_0(m) \defeq \sum_{w in m} count(w, 0) $$
-  $$ X_1(m) \defeq \sum_{w in m} count(w, 1) $$
+  let 
+  $$ X_0(m) \buildrel \rm def \over {:=} \sum_{w in m} count(w, 0) $$
+  $$ X_1(m) \buildrel \rm def \over {:=} \sum_{w in m} count(w, 1) $$
 
-  $$ X(m) = \begin{bmatrix} 1 & X_0(0) & X_1(0) \\ 1 & X_0(1) & X_1(1) \\ 1 & X_1(2) & X_1(2) \\ \vdots & \vdots & \vdots \\ 1 & X_0(m-1) & X_1(m-1) \end{bmatrix} $$
+  $$ X(m) \buildrel \rm def \over {:=} \begin{bmatrix} 1 & X_0(0) & X_1(0) \\ 1 & X_0(1) & X_1(1) \\ 1 & X_1(2) & X_1(2) \\ \vdots & \vdots & \vdots \\ 1 & X_0(m-1) & X_1(m-1) \end{bmatrix} $$
 {% endraw %}
