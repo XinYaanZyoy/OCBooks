@@ -26,14 +26,10 @@ since this kind of 1D matrix has lots of 0s it's called sparse matrix. logistic 
 
 {% raw %}
   $$E=mc^2$$
+
+  E=mc^2
 {% endraw %}
 
-# $$E=mc^2$$
-
-> $$E=mc^2$$
-
-```
 $$E=mc^2$$
-```
 
-**$$E=mc^2$$**
+E=mc^2
