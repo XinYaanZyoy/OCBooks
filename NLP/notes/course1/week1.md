@@ -60,6 +60,7 @@ but there are few words in tweets which doesn't posses any sentiments, e.g; punc
 
 _______________
 
+
 ## Preprocessing
 
 let's then preprocess our corpus in such a way that these non-sentiment words don't come into a play of decision of sentiment of a tweet! but ofc we can't eliminate all the non-sentiment words, after all it's a circular problem! so we try to eliminate those well known non-sentimental words in english literature (though this applies to any language!).
@@ -90,3 +91,11 @@ also, the capitals or lower cased, verbs' tense or any prefixes and sufixes does
 it's called **STEMMING**, we stem out the suffixes and prefixes to get the stems, before that we lower all the capitals.
 
 hence, the words "AI", "Ai" "ai", "aI" are similar in a sentimental way! (should we count capitals as a measure of extra positivity or negativity according to the corresponding tweet? let's make it simpler and don't do it!)
+
+_______________________
+
+
+## Ungraded Lab: NLP
+notebook itself speak a lot, i think i don't need to write any comments on it!
+(i don't know if i)
+[NLP_C1_W1_lecture_nb_01](https://github.com/XinYaanZyoy/onlinecoursenotes/NLP/data/NLP_C1_W1_lecture_nb_01.ipynb)

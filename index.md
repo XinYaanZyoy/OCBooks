@@ -5,6 +5,8 @@ layout: default
 ---
 ## these are notes written by myself while taking online courses.
 
+**DISCLAIMER**: *these notes doesn't include solutions to any quizzes or assignments of any courses, nor does it guide, instead these are a neat and descriptive essays after what i learned from the courses!*
+
 **LIST OF NOTES**
 - [Bioinformatics](/onlinecoursenotes/bioinformatics)
 - [NLP](/onlinecoursenotes/NLP)

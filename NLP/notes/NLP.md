@@ -6,7 +6,7 @@ permalink: /NLP
 # NLP (Natural Language Processing)
 - course: [Natural Language Processing](https://www.coursera.org/specializations/natural-language-processing)
 - provider: [deeplearning.ai](https://www.deeplearning.ai)
-- description: 
+- description:  
 - instructors:
   - [Younes Bensouda Mourri](https://www.coursera.org/instructor/ymourri)
   - [Łukasz Kaiser](https://www.coursera.org/instructor/lukaszkaiser)
