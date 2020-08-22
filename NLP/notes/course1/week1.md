@@ -33,8 +33,9 @@ A `(n+1)D` vec rep of mth tweet of a corpus
 {% endraw %}
 
 logistic regressinal classifier has to learn `n+1` parameters if size of your vocab was `n`. 
-since this kind of `(n+1)D` matrix has lots of 0s it's called sparse matrix. 
-hence this kind of sparse vector is not a good idea for vocab of bigger sizes.
+
+since this kind of `(n+1)D` matrix has lots of 0s it's called sparse matrix. hence this kind of sparse vector is not a good idea for vocab of bigger sizes.
+
 btw, `+1` in `n+1` corresponds to some extra dimension, bias?, idk! but i imagine it as a unit plane on `(n+1)th` dimension, we point all of our `n` vecs on this plane, idk why! but i think it's to include the posibilty of vector addition as a linear operation may be! idk how it connects to our problem! let's wait this might resolve in future notes.
 
 _____________________________
