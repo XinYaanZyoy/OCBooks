@@ -30,7 +30,7 @@ _______________________________________
 
 A `(n+1)D` vec rep of mth tweet of a corpus
 {% raw %}
-  $$ X_m = \begin{bmatrix} 1 \\ \vdots \\ n^{th}-comp \end{bmatrix} $$
+  $$ X(m) = \begin{bmatrix} 1 \\ \vdots \\ n^{th}-comp \end{bmatrix} $$
 {% endraw %}
 
 logistic regressinal classifier has to learn `n+1` parameters if size of our vocab was `n`. 
@@ -53,7 +53,7 @@ let's try to reduce the dimensionality of vecs which represents our tweets to re
 
 A `3D` vec rep of mth tweet of a corpus
 {% raw %}
-  $$ X_m = \begin{bmatrix} 1 \\ \sum_w count(w, 1) \\ \sum_w count(w, 0) \end{bmatrix} $$
+  $$ X(m) = \begin{bmatrix} 1 \\ \sum_{w in m} count(w, 1) \\ \sum_{w in m} count(w, 0) \end{bmatrix} $$
 {% endraw %}
 
 but there are few words in tweets which doesn't posses any sentiments, e.g; punctuations, pronouns etc. why are we considering these words as a measure of sentiment of a tweet? we shouldn't right?
@@ -76,7 +76,7 @@ to generate the well known english stop words i did the following;
 > import nltk
 > nltk.download('stopwords')
 > from nltk.corpus import stopwords
-> print(set(stopwords.words('english')))
+> print(stopwords.words('english'))
 > ```
 
 > **OUTPUT**
@@ -120,3 +120,15 @@ here's steps taken in it;
 17. remove the stop words and punctuations
 18. stem the list of words using porter stemming
 19. import process_tweet from utils, it solves 18 steps in one call. (you need to get the path right to do this!)
+
+__________________________
+
+
+## Putting all Together
+
+{% raw %}
+  $$ X_0(m) \defeq \sum_{w in m} count(w, 0) $$
+  $$ X_1(m) \defeq \sum_{w in m} count(w, 1) $$
+
+  $$ X(m) = \begin{bmatrix} 1 & X_0(0) & X_1(0) \\ 1 & X_0(1) & X_1(1) \\ 1 & X_1(2) & X_1(2) \\ \vdots & \vdots & \vdots \\ 1 & X_0(m-1) & X_1(m-1) \end{bmatrix} $$
+{% endraw %}
