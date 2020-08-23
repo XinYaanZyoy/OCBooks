@@ -130,8 +130,8 @@ now let's build a matrix out of all these vecs, put all these `3D` vecs represen
 **Equations**:
 {% raw %}
   let 
-  $$ X_0(m) \buildrel \rm def \over {:=} \sum_{w in m} count(w, 0) $$ , and 
-  $$ X_1(m) \buildrel \rm def \over {:=} \sum_{w in m} count(w, 1) $$
+  $$ X_0(m) \buildrel \rm def \over {:=} \sum_{w \in m} count(w, 0) $$ , and 
+  $$ X_1(m) \buildrel \rm def \over {:=} \sum_{w \in m} count(w, 1) $$
 
   $$ X(m) \buildrel \rm def \over {:=} \begin{bmatrix} 1 & X_0(0) & X_1(0) \\ 1 & X_0(1) & X_1(1) \\ 1 & X_1(2) & X_1(2) \\ \vdots & \vdots & \vdots \\ 1 & X_0(m-1) & X_1(m-1) \end{bmatrix} $$
 {% endraw %}
@@ -175,5 +175,3 @@ sigmoid function looks like this;
 
 ![](/onlinecoursenotes/NLP/data/sigmoid_plot.png)
 
-
-ydiufgdiu
