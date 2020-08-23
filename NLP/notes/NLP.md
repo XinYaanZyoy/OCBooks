@@ -20,5 +20,5 @@ permalink: /NLP
 ______________
 ## INDEX
 - course1: Natural Language Processing with Classification and Vector Spaces
-  - [week1: Sentiment Analysis with Logistic Regression](/NLP/notes/course1/week1)
-  - [week2: ](/NLP/notes/course1/week2)
+  - [week1: Sentiment Analysis with Logistic Regression](NLP/notes/course1/week1)
+  - [week2: ](NLP/notes/course1/week2)
