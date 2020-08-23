@@ -160,7 +160,7 @@ but what's the logistic regressional classifier/function?
 it's sigmoid function;
 
 {% raw %}
-  h(x(i), \theta ) = \frac1{1+\exp(-\theta^T x(i))}
+  $$ h(x(i), \theta ) = \frac1{1+\exp(-\theta^T x(i))} $$
 {% endraw %}
 
 Why? Why is sigmoid function important? Why does it help here? how does it do classification?
@@ -170,7 +170,7 @@ it's not important for now, if you still want some rigorous work on it checkout 
 sigmoid function looks like this;
 
 {% raw %}
-  f(x) = \frac1{1+\exp(-x)}
+  $$ f(x) = \frac1{1+\exp(-x)} $$
 {% endraw %}
 
 ![](/onlinecoursenotes/NLP/data/sigmoid_plot.png)
