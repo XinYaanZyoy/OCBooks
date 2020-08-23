@@ -184,4 +184,4 @@ key properties of this function are:
 
 so, at \(x=0\) the classification is done, if \(x>0\) f(x) is positive, negative otherwise, except \(x=0\).
 
-in regressional classifier is \(x \cong \theta^T x(i) \), so the dot product \(\theta^T x(i)\) is what classifies in regressional model, fuzzily i imagine that \(\theta^T\) represents some vector in dual of \(\mathbb{R}^3\), and all \(x(i)\) are projected on it, if it's perpendicular that's 0! if not perpendicular then either positive or negative with it's length, if you wish to complete this whole picture in a rigorous and geometric way, please checkout [KoHam](/KoHam)
+in regressional classifier is \(x \equiv \theta^T x(i) \), so the dot product \(\theta^T x(i)\) is what classifies in regressional model, fuzzily i imagine that \(\theta^T\) represents some vector in dual of \(\mathbb{R}^3\), and all \(x(i)\) are projected on it, if it's perpendicular that's 0! if not perpendicular then either positive or negative with it's length, if you wish to complete this whole picture in a rigorous and geometric way, please checkout [KoHam](/KoHam)
