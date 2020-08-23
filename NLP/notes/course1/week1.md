@@ -97,7 +97,7 @@ _______________________
 
 ## Ungraded Lab: NLP
 notebook itself speak a lot, i think i don't need to write any comments on it!
-[NLP_C1_W1_lecture_nb_01](https://github.com/XinYaanZyoy/onlinecoursenotes/blob/master/NLP/data/notebooks/NLP_C1_W1_lecture_nb_01.ipynb)
+[NLP_C1_W1_lecture_nb_01](https://github.com/XinYaanZyoy/onlinecoursenotes/blob/master/NLP/data/NLP_C1_W1_lecture_nb_01.ipynb)
 
 here's steps taken in it;
 
@@ -147,4 +147,30 @@ ________________
 
 ## Ungraded Lab: Visualizing word frequencies
 it's straight forward,
-[NLP_C1_W1_lecture_nb_02](https://github.com/XinYaanZyoy/onlinecoursenotes/blob/master/NLP/data/notebooks/NLP_C1_W1_lecture_nb_02.ipynb), though it's already in the notebook, i've downloaded the module [utils.py](https://github.com/XinYaanZyoy/onlinecoursenotes/blob/master/NLP/data/scripts/utils.py) from the course.
+[NLP_C1_W1_lecture_nb_02](https://github.com/XinYaanZyoy/onlinecoursenotes/blob/master/NLP/data/NLP_C1_W1_lecture_nb_02.ipynb), though it's already in the notebook, i've downloaded the module [utils.py](https://github.com/XinYaanZyoy/onlinecoursenotes/blob/master/NLP/data/utils.py) from the course.
+
+_______________
+
+
+## Logistic regression overview
+now we have all the training dataset tweets represented by `3D` vecs, but we still need to come up with a pattern in this training dataset, called finding a right parameter for a classifier, after having a right parameter we can successfully classify positive vs negative tweets of our training dataset without even looking at the lables, and it's true even for any arbitrary dataset we take, but would be accurate enough for any dataset of tweets in general, so to deploy our classifier we need to come up with a right parameter of logistic regressional classifier.
+
+but what's the logistic regressional classifier/function?
+
+it's sigmoid function;
+
+{% raw %}
+  h(x(i), \theta ) = \frac1{1+\exp(-\theta^T x(i))}
+{% endraw %}
+
+Why? Why is sigmoid function important? Why does it help here? how does it do classification?
+
+it's not important for now, if you still want some rigorous work on it checkout [KoHam](/KoHam).
+
+sigmoid function looks like this;
+
+{% raw %}
+  f(x) = \frac1{1+\exp(-x)}
+{% endraw %}
+
+![](/onlinecoursenotes/NLP/data/sigmoid_plot.png)
