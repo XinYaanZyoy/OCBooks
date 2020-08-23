@@ -17,7 +17,7 @@ ________________
 **THE PURPOSE**
 > self written notebooks while either reading or watching something new, helps me learn it by connecting the dots!
 
-if you're seeking something complete and rigorous set of subjects, forming a web of all the nodes being various subjects on this planet, checkout my another hosted notebooks collections [Koham](https://XinYaanZyoy.github.io/KoHam)
+if you're seeking something complete and rigorous set of subjects, forming a web of all the nodes being various subjects on this planet, checkout my another hosted notebooks collections [Koham](/KoHam)
 
 
 **REFS**
