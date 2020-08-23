@@ -173,4 +173,4 @@ sigmoid function looks like this;
   $$ f(x) = \frac1{1+\exp(-x)} $$
 {% endraw %}
 
-![](/onlinecoursenotes/NLP/data/sigmoid_plot.png)
+![](/NLP/data/sigmoid_plot.png)
