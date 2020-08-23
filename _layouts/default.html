@@ -83,6 +83,7 @@
 	    if(x.length > 4){
 		name1 = x[3];
 		name2 = x.pop().split('.');
+	    	if(name2.includes("html") || name2.includes(".md"))
 		name2.pop();
 		name2 = name2.join('.');
 		tag = document.getElementById("nav");
