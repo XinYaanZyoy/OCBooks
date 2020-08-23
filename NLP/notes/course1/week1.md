@@ -175,3 +175,13 @@ sigmoid function looks like this;
 
 ![](/onlinecoursenotes/NLP/data/sigmoid_plot.png)
 
+we need a threshold to classify things in terms of binary results, and ofc we'll choose the line $ f(x) = 0.5 $ to be that; let 0.5 represent neutral, 0 (though it's debatable!) impossible, and 1 highest possibilty.
+
+key properties of this function are:
+- $$ \lim_{n \to \infty} = 1 $$
+- $$ \lim_{n \to - \infty} = 0 $$
+- $$ f(0) = 0.5 $$
+
+so, at x=0 the classification is done, $ if x>0 $ f(x) is positive, negative otherwise, except x=0.
+
+in regressional classifier is $ x \cong \theta^T x(i) $, so the dot product $ \theta^T x(i) $ is what classifies in regressional model, fuzzily i imagine that $ \theta^T $ represents some vector in dual of $ \mathbb{R}^3 $, and all $x(i)$ are projected on it, if it's perpendicular that's 0! if not perpendicular then either positive or negative with it's length, if you wish to complete this whole picture in a rigorous and geometric way, please checkout [KoHam](/KoHam)
