@@ -1,3 +1,4 @@
 theme: jekyll-theme-hacker
 markdown: kramdown
 layout: default
+baseurl: onlinecoursenotes
