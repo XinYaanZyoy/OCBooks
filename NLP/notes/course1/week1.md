@@ -119,7 +119,7 @@ here's steps taken in it;
 16. tokenize the string
 17. remove the stop words and punctuations
 18. stem the list of words using porter stemming
-19. import process_tweet from utils, it solves 18 steps in one call. (you need to get the path right to do this!)
+19. import process_tweet from utils, it solves 18 steps in one call. (we need to get the path right to do this!)
 
 __________________________
 
@@ -165,7 +165,7 @@ it's sigmoid function;
 
 Why? Why is sigmoid function important? Why does it help here? how does it do classification?
 
-it's not important for now, if you still want some rigorous work on it checkout [KoHam](/KoHam).
+it's not important for now, if we still want some rigorous work on it checkout [KoHam](/KoHam).
 
 sigmoid function looks like this;
 
@@ -184,7 +184,7 @@ key properties of this function are:
 
 so, at $ x=0 $ the classification is done, if $ x>0 $ f(x) is positive, negative otherwise, except $ x=0 $.
 
-in regressional classifier is $ x \equiv \theta^T x(i) $, so the dot product $ \theta^T x(i) $ is what classifies in regressional model, fuzzily i imagine that $ \theta^T $ represents some vector in dual of $ \mathbb{R}^3 $, and all $ x(i) $ are projected on it, if it's perpendicular that's 0! if not perpendicular then either positive or negative with it's length, if you wish to complete this whole picture in a rigorous and geometric way, please checkout [KoHam](/KoHam).
+in regressional classifier is $ x \equiv \theta^T x(i) $, so the dot product $ \theta^T x(i) $ is what classifies in regressional model, fuzzily i imagine that $ \theta^T $ represents some vector in dual of $ \mathbb{R}^3 $, and all $ x(i) $ are projected on it, if it's perpendicular that's 0! if not perpendicular then either positive or negative with it's length, if we wish to complete this whole picture in a rigorous and geometric way, please checkout [KoHam](/KoHam).
 
 ________________
 
@@ -195,4 +195,4 @@ we loop over our training dataset "to train" or "to find the right" model or par
 
 Testing is straight forward, we divide our dataset in to two parts, 80% training and 20% testing, we try to find accuracy by usual fraction: $ \frac{number of tweets got right predicted}{total number of tweets analyzed} $, before we apply gradient descent algo. we need to know what the error or [cost function](https://en.wikipedia.org/wiki/Loss_function) is, and i think it's also pretty straight forward idea if we perceive ["linear regression"](https://en.wikipedia.org/wiki/Linear_regression#:~:text=In%20statistics%2C%20linear%20regression%20is,is%20called%20simple%20linear%20regression.).
 
-i know i'm not writing things rigorously, it's because these notes are supposed to be non-rigorous! for more details you know what to do! :)
+i know i'm not writing things rigorously, it's because these notes are supposed to be non-rigorous! for more details we know what to do! :)
