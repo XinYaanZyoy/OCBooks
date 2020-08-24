@@ -46,7 +46,7 @@ we'll change the way we represent each tweet as a `3D` vec.
 **Equations**:
 
 $$ P(w_i|class) = \frac{freq(w_i \in class)}{N_class} $$
-where $$ class \in {1,0} $$
+where $$ class \in {\{1,0\}} $$
 
 for a subject tweet, we define Naive Bayes Inference Condition Rule for Binary Classification as follows;
 
@@ -61,7 +61,7 @@ _________________
 $P(X)=0$ is kinda debatable topic of mathematical interpretations, for now we'll just assume that we want to avoid such `0` probabilities. to smooth these `0`s out, we'll update our conditional probability equation; whihc we used to build up a table/martrix above, as follows;
 
 $$ P(w_i|class) = \frac{freq(w_i \in class)+1}{N_{class}+N} $$
-where $$ class \in {1,0} $$
+where $$ class \in {\{1,0\}} $$
 
 where N is length of vocab.
 
@@ -95,7 +95,7 @@ $$ \lambda(w) = \ln polarity(w) = \ln \frac{P(w|1)}{P(w|0)} $$
 
 $$ \ln \text(likelihood) = \sum_{i=1}^m \lambda(w_i) $$
 
-if $ \ln \text(likelihood))] > 0 $ it's positive, if $ \ln \text(likelihood) < 0 $ it's negative, if $ \ln \text(likelihood) = 0 $ it's neutral.
+if $ \ln \text(likelihood) > 0 $ it's positive, if $ \ln \text(likelihood) < 0 $ it's negative, if $ \ln \text(likelihood) = 0 $ it's neutral.
 
 ___________________
 
@@ -110,3 +110,9 @@ steps:
 4. compute $ P(w, 1), P(w, 0) $
 5. compute $ \lambda(w) $
 6. compute $ \ln \text{prior} = \ln \frac{P(1)}{P(0)} $
+
+___________________
+
+
+## Testing Naïve Bayes
+it's same as [week1](week1), the 20% of the dataset is our testing dataset, all the tweets are $ X_{test} $ and the corresponding labels/classes are $ Y_{test} $, predict labels/classes of all $ X_{test} $ using already established $ \lambda $ and $ \ln \text{prior} $, measure the accuracy by $ 1/m \sum_{i=1}^m (pred_i == Y_test_i) $, and consider the words which doesn't appear in $ \lambda(w) $ as neutral.
