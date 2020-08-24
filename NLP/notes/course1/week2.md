@@ -90,3 +90,5 @@ $$ \ln \text{inference_term} = \ln \text(prior) + \ln \text(likelihood) $$
 for our most of the simplified cases, the prior is `1`, and hence log prior is `0`.
 
 $$ let \lmbda(w) = \ln polarity(w) = \ln \frac{P(w|1)}{P(w|0)} $$
+
+$$ \ln \text(likelihood) = \sum_{i=1}^m \lmbda(w_i) $$
