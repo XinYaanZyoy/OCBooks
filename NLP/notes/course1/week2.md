@@ -92,3 +92,5 @@ for our most of the simplified cases, the prior is `1`, and hence log prior is `
 $$ let \lambda(w) = \ln polarity(w) = \ln \frac{P(w|1)}{P(w|0)} $$
 
 $$ \ln \text(likelihood) = \sum_{i=1}^m \lambda(w_i) $$
+
+if \ln \text(likelihood)) > 0 $ it's positive, if $ \ln \text(likelihood) < 0 $ it's negative, if $ \ln \text(likelihood) = 0 $ it's neutral.
