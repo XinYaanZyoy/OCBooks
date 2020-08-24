@@ -18,6 +18,7 @@ __________________
 again pretty straight forward from Conditional Probabilities.
 
 **Equations**:
+
 {% raw %}
 
 $$ P(X|Y) = \frac{P(X \bigcap Y)}{P(Y)} $$
