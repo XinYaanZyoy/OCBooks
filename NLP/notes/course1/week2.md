@@ -21,10 +21,8 @@ again pretty straight forward from Conditional Probabilities.
 
 {% raw %}
 
-$$ P(X|Y) = \frac{P(X \bigcap Y)}{P(Y)} $$ ,
-
+$$ P(X|Y) = \frac{P(X \bigcap Y)}{P(Y)} $$
 $$ P(Y|X) = \frac{P(Y \bigcap X)}{P(X)} $$
-
 $$ \therefore P(Y)P(X|Y) = P(X)P(Y|X) $$
 
 {% endraw %}
