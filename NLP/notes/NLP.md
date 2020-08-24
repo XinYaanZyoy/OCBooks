@@ -21,4 +21,4 @@ ______________
 ## INDEX
 - course1: Natural Language Processing with Classification and Vector Spaces
   - [week1: Sentiment Analysis with Logistic Regression](/onlinecoursenotes/NLP/notes/course1/week1)
-  - [week2: ](/onlinecoursenotes/NLP/notes/course1/week2)
+  - [week2: Sentiment Analysis with Naïve Bayes](/onlinecoursenotes/NLP/notes/course1/week2)
