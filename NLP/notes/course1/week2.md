@@ -59,7 +59,7 @@ _________________
 ## Laplacian Smoothing
 $P(X)=0$ is kinda debatable topic of mathematical interpretations, for now we'll just assume that we want to avoid such `0` probabilities. to smooth these `0`s out, we'll update our conditional probability equation; whihc we used to build up a table/martrix above, as follows;
 
-$$ P(X|Y) = \frac{freq(w_i \in class)+1}{N_class+N} ; class \in {1,0} $$
+$$ P(X|Y) = \frac{freq(w_i \in class)+1}{N_{class}+N} ; class \in {1,0} $$
 
 where N is length of vocab.
 
@@ -89,6 +89,6 @@ $$ \ln \text{inference_term} = \ln \text(prior) + \ln \text(likelihood) $$
 
 for our most of the simplified cases, the prior is `1`, and hence log prior is `0`.
 
-$$ let \lmbda(w) = \ln polarity(w) = \ln \frac{P(w|1)}{P(w|0)} $$
+$$ let \lambda(w) = \ln polarity(w) = \ln \frac{P(w|1)}{P(w|0)} $$
 
-$$ \ln \text(likelihood) = \sum_{i=1}^m \lmbda(w_i) $$
+$$ \ln \text(likelihood) = \sum_{i=1}^m \lambda(w_i) $$
