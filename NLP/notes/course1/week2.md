@@ -45,7 +45,8 @@ we'll change the way we represent each tweet as a `3D` vec.
 
 **Equations**:
 
-$$ P(w_i|class) = \frac{freq(w_i \in class)}{N_class} ; class \in {1,0} $$
+$$ P(w_i|class) = \frac{freq(w_i \in class)}{N_class} $$
+where $$ class \in {1,0} $$
 
 for a subject tweet, we define Naive Bayes Inference Condition Rule for Binary Classification as follows;
 
@@ -59,7 +60,8 @@ _________________
 ## Laplacian Smoothing
 $P(X)=0$ is kinda debatable topic of mathematical interpretations, for now we'll just assume that we want to avoid such `0` probabilities. to smooth these `0`s out, we'll update our conditional probability equation; whihc we used to build up a table/martrix above, as follows;
 
-$$ P(X|Y) = \frac{freq(w_i \in class)+1}{N_{class}+N} ; class \in {1,0} $$
+$$ P(w_i|class) = \frac{freq(w_i \in class)+1}{N_{class}+N} $$
+where $$ class \in {1,0} $$
 
 where N is length of vocab.
 
@@ -72,7 +74,7 @@ sentiments can have a continous spectrum of classes, but to simplify we'll take 
 the polarity is defined as;
 
 $$ polarity(w_i) = \frac{P(W_i|1)}{P(W_i|0)} $$
-$$ polarity(w_i) \approx \frac{freq(w_i,1)+1}{freq(w_i,0)+1} $$
+$$ polarity(w_i) \approx \frac{freq(w_i \in 1)+1}{freq(w_i \in 0)+1} $$
 
 if $ polarity(w_i) > 1 $ it's positive, if $ polarity(w_i) < 1 $ it's negative, if $ polarity(w_i) = 1 $ it's neutral.
 
@@ -81,16 +83,30 @@ $$ likelyhood = \prod_{i=0}^m polarity(w_i) $$
 the naive bayes' inference equaiton assumes that length of negative and positive corpus is same, in reality; however, this might not be the case, so what we do is, multiply our previous equation (the likelyhood) by prior term;
 
 $$ prior \buildrel \rm def \over {:=} \frac{P(1)}{P(0)} $$
-$$ \text{inference_term} = \text{prior} * \text{likelyhood} $$
+$$ \text{inference} = \text{prior} * \text{likelyhood} $$
 
 since we're dealing with probs and they're in `(0,1)`, multiplications of these numbers are even smaller, such computations might arise a case of underflaw, that it can't be stored in memory(WHY?)! so we transform these numbers by using logs, with base e; the euler number 2.71828182846.
 
-$$ \ln \text{inference_term} = \ln \text(prior) + \ln \text(likelihood) $$
+$$ \ln \text{inference} = \ln \text{prior} + \ln \text{likelihood} $$
 
 for our most of the simplified cases, the prior is `1`, and hence log prior is `0`.
 
-let $$ \lambda(w) = \ln polarity(w) = \ln \frac{P(w|1)}{P(w|0)} $$
+$$ \lambda(w) = \ln polarity(w) = \ln \frac{P(w|1)}{P(w|0)} $$
 
 $$ \ln \text(likelihood) = \sum_{i=1}^m \lambda(w_i) $$
 
-if $ \ln \text(likelihood)) > 0 $ it's positive, if $ \ln \text(likelihood) < 0 $ it's negative, if $ \ln \text(likelihood) = 0 $ it's neutral.
+if $ \ln \text(likelihood))] > 0 $ it's positive, if $ \ln \text(likelihood) < 0 $ it's negative, if $ \ln \text(likelihood) = 0 $ it's neutral.
+
+___________________
+
+
+## Training Naïve Bayes
+the classifier is kinda different than logistic regression, we just count the freqs!
+
+steps:
+1. annotate a dataset with positive and negative tweets.
+2. preprocess the tweets using $ process_tweet(tweet) $ of utils.py
+3. compute $ freq(w, class) $
+4. compute $ P(w, 1), P(w, 0) $
+5. compute $ \lambda(w) $
+6. compute $ \ln \text{prior} = \ln \frac{P(1)}{P(0)} $
