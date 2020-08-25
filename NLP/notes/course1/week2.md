@@ -114,5 +114,45 @@ steps:
 ___________________
 
 
+## Ungraded Lab: Visualizing likelihoods and confidence ellipses
+here's the [notebook](https://github.com/XinYaanZyoy/onlinecoursenotes/blob/master/NLP/data/NLP_C1_W2_lecture_nb_01.ipynb)
+
+____________________
+
+
 ## Testing Naïve Bayes
 it's same as [week1](week1), the 20% of the dataset is our testing dataset, all the tweets are $ X_{test} $ and the corresponding labels/classes are $ Y_{test} $, predict labels/classes of all $ X_{test} $ using already established $ \lambda $ and $ \ln \text{prior} $, measure the accuracy by $ 1/m \sum_{i=1}^m (pred_i == Y_test_i) $, and consider the words which doesn't appear in $ \lambda(w) $ as neutral.
+
+___________________
+
+
+## Naïve Bayes' Applications
+- Sentimental Analysis (wed just did it!)
+- Author identification (i'm a little skeptic about this one)
+- Information Retrieval (a consequence i guess!)
+- Word Disambiguation (i love this one!)
+
+_________________
+
+
+## Naïve Bayes Assumptions
+this method/algo is Naïve because of its underlying assumptions
+1. Independence of Predictors of each class:
+    - ofc the words appearing in a single doc or a tweet are not completely independent of each other in a sense of "feel" or ""
+
+2. Relative Frequency in Corpus:
+    - it's a prior, the ration we discussed before
+
+________________
+
+
+## Error Analysis
+No matter what NLP method we're using, there'll alway be few misclassified objects; hence the error, we need to be able to mesure such errors.  
+here're some possible errors:
+- Sementic meaning lost in the preprocessing step:
+    - "My Beloved Grandma :(" is a negative sentiment because of emoticon/emoji/punctuation marks. but preprocessing of this sentence would result in a positive sentiment!
+    - it's not only about punctuation either! preprocessing of "this is not good, because your attitude is not even close to being nice." would result in a positive sentiment! but it's a negative sentiment!
+- word order effects on the meaning of a sentence.
+    - "i am happy because i did not go" vs "i am not happy because i did go."
+- Adversarial Attacks:
+    - Sarcasm, Irony, and Euphemisms!
