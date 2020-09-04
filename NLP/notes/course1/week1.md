@@ -97,7 +97,7 @@ _______________________
 
 ## Ungraded Lab: NLP
 notebook itself speak a lot, i think i don't need to write any comments on it!
-[NLP_C1_W1_lecture_nb_01](https://github.com/XinYaanZyoy/onlinecoursenotes/blob/master/NLP/data/NLP_C1_W1_lecture_nb_01.ipynb)
+[NLP_C1_W1_lecture_nb_01](https://github.com/XinYaanZyoy/OCBooks/blob/master/NLP/data/NLP_C1_W1_lecture_nb_01.ipynb)
 
 here's steps taken in it;
 
@@ -147,7 +147,7 @@ ________________
 
 ## Ungraded Lab: Visualizing word frequencies
 it's straight forward,
-[NLP_C1_W1_lecture_nb_02](https://github.com/XinYaanZyoy/onlinecoursenotes/blob/master/NLP/data/NLP_C1_W1_lecture_nb_02.ipynb), though it's already in the notebook, i've downloaded the module [utils.py](https://github.com/XinYaanZyoy/onlinecoursenotes/blob/master/NLP/data/utils.py) from the course.
+[NLP_C1_W1_lecture_nb_02](https://github.com/XinYaanZyoy/OCBooks/blob/master/NLP/data/NLP_C1_W1_lecture_nb_02.ipynb), though it's already in the notebook, i've downloaded the module [utils.py](https://github.com/XinYaanZyoy/OCBooks/blob/master/NLP/data/utils.py) from the course.
 
 _______________
 
@@ -173,7 +173,7 @@ sigmoid function looks like this;
   $$ f(x) = \frac1{1+\exp(-x)} $$
 {% endraw %}
 
-![](/onlinecoursenotes/NLP/data/sigmoid_plot.png)
+![](/OCBooks/NLP/data/sigmoid_plot.png)
 
 we need a threshold to classify things in terms of binary results, and ofc we'll choose the line $ f(x) = 0.5 $ to be that; let 0.5 represent neutral, 0 (though it's debatable!) impossible, and 1 highest possibilty.
 

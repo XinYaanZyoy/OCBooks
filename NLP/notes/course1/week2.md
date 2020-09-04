@@ -115,7 +115,7 @@ ___________________
 
 
 ## Ungraded Lab: Visualizing likelihoods and confidence ellipses
-here's the [notebook](https://github.com/XinYaanZyoy/onlinecoursenotes/blob/master/NLP/data/NLP_C1_W2_lecture_nb_01.ipynb)
+here's the [notebook](https://github.com/XinYaanZyoy/OCBooks/blob/master/NLP/data/NLP_C1_W2_lecture_nb_01.ipynb)
 
 ____________________
 

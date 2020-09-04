@@ -15,10 +15,10 @@ permalink: /NLP
 - End Date:
 - final certificate:
 
-**DISCLAIMER**: *i don't know if i'm doing the wrong thing by having the ungraded assignments (.ipynb) in [here](https://github.com/XinYaanZyoy/onlinecoursenotes/tree/master/NLP/data), i've searched online about this, all i found was "you're breaking Coursera Honor Code if you're uploading **Solutions to Assignments** to your github repo", i don't think the case of uploading ungrded assignments would be affected by this honor code, still if you find anything inappropriate here kindly contact me at XinYaanZyoy@gmail.com*
+**DISCLAIMER**: *i don't know if i'm doing the wrong thing by having the ungraded assignments (.ipynb) in [here](https://github.com/XinYaanZyoy/OCBooks/tree/master/NLP/data), i've searched online about this, all i found was "you're breaking Coursera Honor Code if you're uploading **Solutions to Assignments** to your github repo", i don't think the case of uploading ungrded assignments would be affected by this honor code, still if you find anything inappropriate here kindly contact me at XinYaanZyoy@gmail.com*
 
 ______________
 ## INDEX
 - course1: Natural Language Processing with Classification and Vector Spaces
-  - [week1: Sentiment Analysis with Logistic Regression](/onlinecoursenotes/NLP/notes/course1/week1)
-  - [week2: Sentiment Analysis with Naïve Bayes](/onlinecoursenotes/NLP/notes/course1/week2)
+  - [week1: Sentiment Analysis with Logistic Regression](/OCBooks/NLP/notes/course1/week1)
+  - [week2: Sentiment Analysis with Naïve Bayes](/OCBooks/NLP/notes/course1/week2)
