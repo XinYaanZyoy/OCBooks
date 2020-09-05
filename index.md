@@ -11,6 +11,7 @@ layout: default
 - [Bioinformatics](/OCBooks/bioinformatics)
 - [NLP](/OCBooks/NLP)
 - [CFD](/OCBooks/CFD)
+- [COMPHY](/OCBooks/COMPHY)
 
 ________________
 *NOTE: these notebooks are not meant to teach to anyone, these are just my personal notes, only reason to host it on the internet is a hope! a hope of helping someone who needs it, though these are not rigorous (if science topic) or complete (if other topics) these notes may draw a pattern in reader's mind to be able to learn it somewhere else with ease.*

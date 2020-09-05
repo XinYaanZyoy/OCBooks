@@ -16,6 +16,15 @@ permalink: /CFD
 
 **NOTE**: *if you find anything inappropriate here kindly contact me at XinYaanZyoy@gmail.com*
 
+**REFERENCES**:
+  - Computational Fluid Dynamics, K. A. Hoffmann and S. T. Chiang, Engineering Education System, 2000 (total 3 vols)
+
+**LINKS**: *these links are just meant to help, i do not hold any authority or anything.*
+  - [http://sietm.com/wp-content/uploads/2015/03/a-first-course-on-aerodynamics.pdf](http://sietm.com/wp-content/uploads/2015/03/a-first-course-on-aerodynamics.pdf)
+  - [http://sharif.ir/~moosavi/Hoffmann_v1.pdf](http://sharif.ir/~moosavi/Hoffmann_v1.pdf)
+  - [https://pdfslide.net/download/link/computational-fluid-dynamics-vol-2-ka-hoffmann-st-chiang](https://pdfslide.net/download/link/computational-fluid-dynamics-vol-2-ka-hoffmann-st-chiang)
+  - [https://pdfslide.net/download/link/computational-fluid-dynamics-voliii-hoffmannpdf](https://pdfslide.net/download/link/computational-fluid-dynamics-voliii-hoffmannpdf)
+
 ______________
 ## INDEX
 - week1: Governing conservations equations of fluid flow and classification of system of partial differential equations (PDEs)
