@@ -6,5 +6,5 @@ i want to rewise/revisualoize the beauty of Wave Equations since i'm beginning m
 
 here's the general linear wave equation
 
-$$ \frac\partial^2{\partial t}^2 = v^2 \frac\partial^2{\partial t}^2 $$
+$$ \frac{\partial^2}{\partial t}^2 = v^2 \frac{\partial^2{\partial t}^2 $$
 
