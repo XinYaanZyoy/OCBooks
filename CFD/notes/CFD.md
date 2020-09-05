@@ -19,5 +19,5 @@ permalink: /CFD
 ______________
 ## INDEX
 - week1: Governing conservations equations of fluid flow and classification of system of partial differential equations (PDEs)
-  - [LEC1: Brief Overview of CFD](/OCBooks/NLP/notes/week1/lec1)
-  - [LEC2: Governing Equations of Fluid Flow](/OCBooks/NLP/notes/week1/lec2)
+  - [LEC1: Brief Overview of CFD](/OCBooks/CFD/notes/week1/lec1)
+  - [LEC2: Governing Equations of Fluid Flow](/OCBooks/CFD/notes/week1/lec2)
