@@ -3,7 +3,7 @@ title: CFD
 permalink: /CFD
 ---
 
-# NLP (Natural Language Processing)
+# CFD (Introduction to CFD)
 - course: [Introduction to CFD](https://onlinecourses.nptel.ac.in/noc20_ae11)
 - platform: [SWAYAM](https://swayam.gov.in/)
 - provider: [IIT Kharagpur](http://www.iitkgp.ac.in/)
