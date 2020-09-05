@@ -10,7 +10,7 @@ derivative of a scalar field is a vec field, and laplacian of this field is agai
 
 laplacian can be imagined as an RHS of linear wave equation;
 
-$$ \frac{\partial^2}{\partial t}^2 = v^2 \frac{\partial^2}{\partial t}^2 $$
+$$ \frac{\partial^2}{\partial t^2} = v^2 \frac{\partial^2}{\partial t^2} $$
 
 
 ## Laplace Equation
