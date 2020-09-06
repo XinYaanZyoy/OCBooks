@@ -43,3 +43,29 @@ matching the boundries is the hard part.
 1. equilibrium
 2. slow convergence to equlib
 3. rush to equ with overshoot
+
+
+null space is due to tran from h to l.
+
+ODEs can be evolutioned from t
+PDEs has to be solved in the whole domain simelite
+can we do evol from bc
+
+3 ways to look at linear sys mat eq
+
+NS = order of ODE
+
+eigen function of the differntial operator is e^ax
+
+const of a null space vec spans the null space
+
+repeated roots ODE? t why?
+
+what if the external freq is in the null space of the sys/natural freq? that's resonance.
+
+what if resonance + repeated roots?
+what if force is in the null space?
+
+is u'' + 9u = sin(3.000001t) a resonance?
+
+slop of bar or string, non-0 2nd derivative => res
