@@ -69,3 +69,26 @@ what if force is in the null space?
 is u'' + 9u = sin(3.000001t) a resonance?
 
 slop of bar or string, non-0 2nd derivative => res
+
+heat and wave equ
+u(Z,t) = f(Z)T(t) is possible due to the fact that the shape of the object is same for all the time it's just its aplitude which changes.
+the constant arises due to the logic of being invariants of space and time.
+spatial one brings a laplace eigen value eq. and temporal one brings exp decay.
+
+
+heat equ 1D
+(ic + bc)
+spectrum is collection of egn vals
+spctrm of laplace op on unit seg with 0 bc is nPI
+if it were an inf line, no bc, full continuum spectrum
+if not, the quantized spectrum.
+it's the mother of fourier series (read riemann)
+egn func of laplace op is fou-ser
+domain determines eigen vals which are natural freqs
+
+newton is blae to do calc bcz of INFINITE power series
+same for analysus to f-s (domain ana)
+read gibbs phenomena
+
+
+basel form sum of inv sqrs is done by euler at 17! by f-s of pi^2 - x^2?
