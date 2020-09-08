@@ -1,4 +1,4 @@
-# Governing Equations of Fluid Flow
+# Governing Equations of Fluid Flow 1
 
 Governing Equations of Fluid Flow problems often involve PDEs.
 
@@ -29,10 +29,3 @@ it boils down to an ODE of which solution is $ \phi(x) = kx+c $.
 let $ \phi(x=0) = \phi_0 $ and $ \phi(x=L) = \phi_L $.
 $ \therefore \phi(x) = \frac{\phi_L-\phi_0}{L}x+\phi_L $ which is a smooth linear variation.
 this is just a final snapshot or state of equilibrium ignoring the transient process.
-
-
-## Heat Equation
-$$ \frac{\partial \phi(t,z)}{\partial t} = \alpha \nabla^2 \phi(t,z) $$
-where $\alpha$ is thermal diffusivity.
-the potential here is function of both spatial and temporal variable.
-the profile smoothly decays to equilibrium state (solution of Laplace Equation).
