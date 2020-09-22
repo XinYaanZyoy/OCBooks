@@ -31,4 +31,7 @@ ______________
   - [LEC1: Brief Overview of CFD](/OCBooks/CFD/notes/week1/lec1)
   - [LEC2: Governing Equations of Fluid Flow 1](/OCBooks/CFD/notes/week1/lec2)
   - [LEC3: Governing Equations of Fluid Flow 2](/OCBooks/CFD/notes/week1/lec3)
-  - [LEC4: Classification of PDEs 1](/OCBooks/CFD/notes/week1/lec4)
+  - [LEC4: Classification of PDEs 1] usual elliptic/parabolic/hyperbolic things!
+  - [LEC5: Classification of PDEs 2] usual 1st order system's eigen states and all.
+  - [LEC6: Methods for Approximate Solution of PDEs](/OCBooks/CFD/notes/week2/lec6)
+  - [LEC7: Finite Difference Method](/OCBooks/CFD/notes/week2/lec7)
