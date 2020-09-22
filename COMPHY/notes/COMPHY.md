@@ -17,9 +17,11 @@ permalink: /COMPHY
 **NOTE**: *if you find anything inappropriate here kindly contact me at XinYaanZyoy@gmail.com*
 
 **REFERENCES**: 
-    - "A First Course in Computational Physics" by Paul L. DeVries, Miami University, Oxford, Ohio.
+    - ["A First Course in Computational Physics" by Paul L. DeVries, Miami University, Oxford, Ohio.](https://archive.org/details/PaulLDeVriesAFirstCourseInComputationalPhysicsWiley1984)
     
 ______________
 ## INDEX
 - week1: Rapid overview of Fortran programming Language
     - there was nothing to be learnt for me in this week! it's just basic recapse of fortran 90/95.
+- week2: Numerical Integration (Stochastic Methods)
+    - [LEC1](/OCBooks/COMPHY/notes/week2/lec1)
