@@ -8,10 +8,7 @@ usual rectangle approx. for integration, which results in either under/over esti
 build a trapezpoid by joining the boundary function points, which is better than above two. and is average of those!
 to furthur increase the accuracy just partition the domain! which looks like;
 the integration I of f(x) over $\[a,b\]$.
-$$ I = \sum_{i=1}^n I_i $$
 
-$$ I_i = \frac{h}{2} (f(x_{i-1})+f(x_i)) $$
-
-$$ h = \frac{b-a}n $$
+$$ I = \sum_{i=1}^n I_i $$; $$ I_i = \frac{h}{2} (f(x_{i-1})+f(x_i)) $$, $$ h = \frac{b-a}n $$
 
 $$ \therefore I = \frac{h}{2} (f()) $$
