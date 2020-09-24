@@ -25,3 +25,4 @@ ______________
     - there was nothing to be learnt for me in this week! it's just basic recapse of fortran 90/95.
 - week2: Numerical Integration (Stochastic Methods)
     - [LEC1](/OCBooks/COMPHY/notes/week2/lec1)
+    - [LEC2](/OCBooks/COMPHY/notes/week2/lec2)
