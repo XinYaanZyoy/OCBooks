@@ -11,10 +11,12 @@ build a trapezpoid by joining the boundary function points, which is better than
 to furthur increase the accuracy just partition the domain! which looks like;
 the integration I of f(x) over $\[a,b\]$.
 
-$$ I = \sum_{i=1}^n I_i $$; $$ I_i = \frac{h}{2} (f(x_{i-1})+f(x_i)) $$, $$ h = \frac{b-a}n $$
+let $$ h = \frac{b-a}n $$; so that $ x_i = a+ih; \forall i \in \mathbb{W} $
 
-$$ \therefore I = \frac{h}{2} (f(a)+f(b)+2\sum_{i=1}^{n-1}f(x_i)) $$
+$$ I_{1D,Central} = \frac{h}{2} (f(a)+f(b)+2\sum_{i=1}^{n-1}f(x_i)) $$
 
-this is a central difference which is an avg of left and right difference.
+this is a central (trapezoidal) difference which is an avg of left (rectangular) and right (rectangular) differences;
+
+$$ I_{1D,Left} = h \sum_{i=0}^{n-1} f(a+ih) $$, and $$ I_{1D,Right} = h \sum_{i=1}^{n} f(a+ih) $$
 
 Error of this is of order $ O(h^2) $ or $ O(n^{-2}) $.
