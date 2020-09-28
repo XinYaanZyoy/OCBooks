@@ -54,10 +54,19 @@ _____________
 
 
 ## Multiple Planes
-we draw multiple lines to classify multiple clusters, and then we get an array of signs (1 for pos 0 for neg) for a point or vec in vec space, we then think of this array a binary number and convert it into decimal number to have it resulted in one hash value for this region.
+we draw multiple lines to classify multiple clusters, and then we get an array of signs (1 for pos 0 for neg) for a point or vec in vec space, we then think of this array a binary number and convert it into a number to have it resulted in one hash value for this region.
 
 in this manner we hash the vector space into regions having certain hash vals for a given data.
 
-to convert the binary array into decimal (hash);
+to convert the binary array into hash (deciaml);
 
 $$ hash = \sum_i^H 2^i h_i $$
+
+_______________
+
+
+## Approximate nearest neighbors
+but how to find an appropriate lines/planes/hyperplanes which classifies the way previously mentioned?
+there might be multiple way to do this, which one is best?
+actually we can't actually tell which one is best!
+instead of brute forcing, or naive searching, we approximate nearest neighbours by creating multiple set of random planes, each set will hash the vector space, a given point/vec will therefore be in different-different regions, and hence hash value, having multiple of these hashes for a single vec will provie us a way to approximate nearest neghbours.
