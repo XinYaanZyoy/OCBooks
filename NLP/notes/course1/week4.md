@@ -10,3 +10,7 @@ to find an appropriate transformation, we'll neede a training dataset (subset of
 find loss by,
 
 $$ Loss = \|\boldsymbol{E}\boldsymbol{T}=\boldsymbol{F}\|_{frobenius} $$
+
+to minimize the loss, loop over;
+
+$$ g = \frac{d}{dR} Loss, R = R - \alpha g $$
