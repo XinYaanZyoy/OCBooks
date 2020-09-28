@@ -23,3 +23,41 @@ for simplicity define;
 $$ Loss = \|\boldsymbol{E}\boldsymbol{T}=\boldsymbol{F}\|^2_{frobenius} $$
 
 $$ g = \frac{d}{dR} Loss = \frac2m (\boldsymbol{E^T}(\boldsymbol{E}\boldsymbol{T}-\boldsymbol{F})) $$
+
+______________
+
+
+## Ungraded Lab: Rotation matrices in R2
+[notebook](https://github.com/XinYaanZyoy/OCBooks/blob/master/NLP/data/NLP_C1_W4_lecture_nb_01.ipynb)
+
+______________
+
+
+## K-nearest neighbors
+it's a technique to find the nearest neighbors of a predicted point in vec space while translating from eng to fremch!
+
+______________
+
+
+## Hash tables and hash functions
+the usual defination of hash functions and tables, hash function is a function which sets a key for each values depending on a determined relation, one key might have more than values, e.g classify given numbers by dividing it by 10 classes labled (keys) 0 to 9, and remainder will tell which class the number belongs to.
+
+______________
+
+
+## Locality sensitive hashing
+we need a hash function which respects the location of vectors in vector space, and hashes the vectors considering the locality.
+
+to do this, imagine data plotted on 2D plane, we see some clusters of same category, we draw a line which divides this plane into line above or below, we take a normal vector to this line, we dot the vector to be classified, dot it with normal vec, if =0 it's on this line, if >0 it's above, and below if it's <0.
+
+_____________
+
+
+## Multiple Planes
+we draw multiple lines to classify multiple clusters, and then we get an array of signs (1 for pos 0 for neg) for a point or vec in vec space, we then think of this array a binary number and convert it into decimal number to have it resulted in one hash value for this region.
+
+in this manner we hash the vector space into regions having certain hash vals for a given data.
+
+to convert the binary array into decimal (hash);
+
+$$ hash = \sum_i^H 2^i h_i $$
