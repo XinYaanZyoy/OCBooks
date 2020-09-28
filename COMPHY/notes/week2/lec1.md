@@ -17,6 +17,6 @@ $$ I_{1D,Central} = \frac{h}{2} (f(a)+f(b)+2\sum_{i=1}^{n-1}f(x_i)) $$
 
 this is a central (trapezoidal) difference which is an avg of left (rectangular) and right (rectangular) differences;
 
-$$ I_{1D,Left} = h \sum_{i=0}^{n-1} f(a+ih) $$, and $$ I_{1D,Right} = h \sum_{i=1}^{n} f(a+ih) $$
+$$ I_{1D,Left} = h \sum_{i=0}^{n-1}f(a+ih) $$, and $$ I_{1D,Right} = h \sum_{i=1}^{n}f(a+ih) $$
 
 Error of this is of order $ O(h^2) $ or $ O(n^{-2}) $.
