@@ -17,3 +17,9 @@ $$ g = \frac{d}{dR} Loss, R = R - \alpha g $$
 
 **Frobenius Norm**: 
 $$ \|\boldsymbol{A}\|_{frobenius} = \sqrt{\sum_{i=1}^m \sum_{j=1}^n |a_{ij}|^2} $$
+
+for simplicity define;
+
+$$ Loss = \|\boldsymbol{E}\boldsymbol{T}=\boldsymbol{F}\|^2_{frobenius} $$
+
+$$ g = \frac{d}{dR} Loss = \frac2m (\boldsymbol{E^T}(\boldsymbol{E}\boldsymbol{T}-\boldsymbol{F})) $$
