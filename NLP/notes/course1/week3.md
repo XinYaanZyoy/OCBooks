@@ -98,6 +98,8 @@ _________________
 4. this will return list of three matrixes, 1st is of eigen vecs (cols), 2nd is of eigen vals (diag).
 5. project the data! by dotting the matrix of word embeddings to the matrix of eigen vals till n; where n is the desired dimension of the data.
 
+__________________
+
 
 ## Ungraded Lab: Another explanation about PCA
 [notebook](https://github.com/XinYaanZyoy/OCBooks/blob/master/NLP/data/NLP_C1_W3_lecture_nb_03.ipynb)
