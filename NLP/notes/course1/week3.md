@@ -31,3 +31,23 @@ this is a metric to determine the similarity of two vectors by measuring the dis
 
 $$ d( \vec v_1 ,\vec v_2 ) = \sqrt{\sum_{i=1}^n (v_{1i} - v_{2i})^2} $$
 
+it's also called norm of the difference vector.
+
+in python,
+```
+np.linalg.norm(v1-v2)
+```
+
+________________
+
+
+## Cosine Similarity: Intuition
+ofc, it's obvious that Euclidean Distnce doesn't find similarities if the vectors are not on the same circles, because the small length vec might be similar to large length vec than another large one, therefore the angle between the vector should also be accounted!
+
+________________
+
+
+## Cosine Similarity
+it's obvious that colinear vecs will have 1 and normal will have 0, due to cosine of angle.
+to compute cosine of angle
+$$ cos(\theta_{12}) = \frac{\vec v_1 \cdot \vec v_2}{\|\vec v_1\| \|\vec v_2\|} $$
