@@ -22,3 +22,4 @@ ______________
 - course1: Natural Language Processing with Classification and Vector Spaces
   - [week1: Sentiment Analysis with Logistic Regression](/OCBooks/NLP/notes/course1/week1)
   - [week2: Sentiment Analysis with Naïve Bayes](/OCBooks/NLP/notes/course1/week2)
+  - [week3: Vector Space Models](/OCBooks/NLP/notes/course1/week3)
