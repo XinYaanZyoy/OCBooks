@@ -14,3 +14,6 @@ $$ Loss = \|\boldsymbol{E}\boldsymbol{T}=\boldsymbol{F}\|_{frobenius} $$
 to minimize the loss, loop over;
 
 $$ g = \frac{d}{dR} Loss, R = R - \alpha g $$
+
+**Frobenius Norm**: 
+$$ \|\boldsymbol{A}\|_{frobenius} = \sqrt{\sum_{i=1}^m \sum_{j=1}^n |a_{ij}|^2} $$
