@@ -9,6 +9,7 @@ _______________
 
 **THE IDEA**:
 we identify context of the words and relations to other words in text, we represent them as vectors, and this captures the relative meaning of each word, and hense an appropriate interpretation of text.
+
 ______________
 
 
@@ -21,11 +22,12 @@ ______________
 **THE IDEA**: we've a corpus, which is categorized, for a given word, we count number of times the word appears in in each category, and assign it to the vector entry, the vector thus is n (vocab len) dimensional. and matrix is n by m (number of categories) dimensional. so m vectors of corpus in vector space whose bases are n words.
 
 by calculating the Angle distance, we interpret it as similarity measurement.
+
 ______________
 
 
 ## Euclidean Distance
 this is a metric to determine the similarity of two vectors by measuring the distance.
 
-$$ d(\vv{\bm{v_1}},\vv{\bm{v_2}}) = \sqrt{\sum_{i=1}^n (v_{1i} - v_{2i})^2} $$
+$$ d(\vec{v_1}},\vec{v_2}}) = \sqrt{\sum_{i=1}^n (v_{1i} - v_{2i})^2} $$
 
