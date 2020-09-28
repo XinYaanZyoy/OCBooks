@@ -29,5 +29,5 @@ ______________
 ## Euclidean Distance
 this is a metric to determine the similarity of two vectors by measuring the distance.
 
-$$ d(\vec{v_1}},\vec{v_2}}) = \sqrt{\sum_{i=1}^n (v_{1i} - v_{2i})^2} $$
+$$ d( \vec v_1 ,\vec v_2 ) = \sqrt{\sum_{i=1}^n (v_{1i} - v_{2i})^2} $$
 
