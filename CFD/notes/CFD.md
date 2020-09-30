@@ -35,3 +35,5 @@ ______________
   - [LEC5: Classification of PDEs 2] usual 1st order system's eigen states and all.
   - [LEC6: Methods for Approximate Solution of PDEs](/OCBooks/CFD/notes/week2/lec6)
   - [LEC7: Finite Difference Method](/OCBooks/CFD/notes/week2/lec7)
+  - [LEC8: Finite Volume Method](/OCBooks/CFD/notes/week2/lec7)
+  - [LEC9: General transport equation](/OCBooks/CFD/notes/week2/lec7)

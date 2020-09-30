@@ -2,7 +2,6 @@
 
 FDM, FVM, and FEM are approaches to approximation
 
-## FDM(Finite Difference Method)
 - discretize the physical domain into finite number of points
 - Draw a mesh or grid which fills the domain. we can approximate PDEs at the nodes of such mesh.
 - instead of exact we seek approx sol at every nodes. this is economical, viable where analytical sol is difficult.
