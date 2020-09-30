@@ -10,7 +10,7 @@ fortran compiler already has (subroutines) a predefined RNG, which is actually p
 
 ## linear congruent/modulo gen
 
-$$ x_i &\equiv (a x_{i-1} + c) \mod m; i>0, x_i,a,c,m \in \mathbb{Z} $$
+$$ x_i \equiv (a x_{i-1} + c) \mod m; i>0, x_i,a,c,m \in \mathbb{Z} $$
 
 where m determines the period; a and c are also crucial for the period, having large m with inaprpriate a and c will not guarantee randomization.
 
@@ -38,11 +38,11 @@ for uniform dist. $p(x_i) = 1$
 
 $$ <x^k> = \frac{\sum_{i=1}^N x_i^k}{N} $$
 
-for $$ N \to \infty, <x^k> = \int_0^1 x^k dx = \frac{1}{k+1} $$
+for $ N \to \infty, \<x^k> = \int_0^1 x^k dx = \frac{1}{k+1} $
 
-$$ \because \mu = <x^1> \therefore \mu = \frac12 = 0.5 $$
+$$ \because \mu = <x^1>, \therefore \mu = \frac12 = 0.5 $$
 
-$$ \because \sigma = \sqrt{<x^2>-<x>^2} \therefore \sigma = \frac{1}{\sqrt{12}} = 0.2886 $$
+$$ \because \sigma = \sqrt{<x^2>-<x>^2}, \therefore \sigma = \frac{1}{\sqrt{12}} = 0.2886 $$
 
 
 2. 
