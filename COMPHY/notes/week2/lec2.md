@@ -23,7 +23,7 @@ Error of this is of order $ O(h^2) + O(k^2) $ or $ O(m^{-2}) + O(n^{-2}) $.
 for a d dim integral;
 total nodes N = $n^d$ if there are n nodes in each dim.
 
-$ \therefore n = N^{\frac 1k} $, Error $ \approx O(n^{-2}) \approx O(N^{\frac{-2}{k}}) $
+$ \therefore n = N^{\frac 1d} $, Error $ \approx O(n^{-2}) \approx O(N^{\frac{-2}{d}}) $
 
 so, as dim of integral increases this (grid method) approximation accumulates more and more error!
 
