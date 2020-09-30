@@ -39,4 +39,4 @@ these mathods are deterministic (grid based), becuase we've a predetermined poin
 
 the answer to the feasibility and accuracy is "stochastic methods"!
 
-use $ \integral_0^1 \frac{1}{1+x^2} dx = \frac{\pi}{4}$ to learn the behavior of trapezoidal rule.
+use $ \int_0^1 \frac{1}{1+x^2} dx = \frac{\pi}{4}$ to learn the behavior of trapezoidal rule.
