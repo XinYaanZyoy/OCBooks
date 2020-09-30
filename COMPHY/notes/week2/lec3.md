@@ -18,7 +18,7 @@ $$ \therefore I = V_{n+1} = V_n <f> $$
 
 computationally $V_{n+1}$ has no problem, problem arrises in computing \<f>, just the way we saw in example in last lec.
 
-so to compute <f>, instead of predeterministic method; in which number of nodes gets very hight to be able to finish the comp in an feasibility amount of time, we use stochastic method; in which we choose nodes randomly such that they lie within the boundaries (so within the n dim vol), then compute \<f> at these random nodes!
+so to compute \<f>, instead of predeterministic method; in which number of nodes gets very hight to be able to finish the comp in an feasibility amount of time, we use stochastic method; in which we choose nodes randomly such that they lie within the boundaries (so within the n dim vol), then compute \<f> at these random nodes!
 
 so we don't know what nodes are to be taken, we just know their boundry. the integration approximated this way is called **Monte Carlo Integration**.
 
