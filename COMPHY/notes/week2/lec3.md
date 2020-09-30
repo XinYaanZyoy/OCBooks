@@ -38,4 +38,4 @@ $$ \therefore <f> = \frac{1}{MN} \sum_{j=1}^M \sum_{i=1}^N [f(x_i)]_j $$
 
 where $[]_j$ represents jth random number sequence.
 
-what's the PDF of $ <f>_j $ ?
+what's the PDF of $ \<f>_j $ ?
