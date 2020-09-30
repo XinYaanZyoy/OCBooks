@@ -36,6 +36,10 @@ $$ <f>_j = \frac1N \sum_{i=1}^N [f(x_i)]_j $$
 
 $$ \therefore <f> = \frac{1}{MN} \sum_{j=1}^M \sum_{i=1}^N [f(x_i)]_j $$
 
-where $[]_j$ represents jth random number sequence.
+where $[ ]_j$ represents jth random number sequence.
 
 what's the PDF of $ \<f>_j $ ?
+
+according to [CLT](https://en.wikipedia.org/wiki/Central_limit_theorem), PDF of of $ \<f>_j $ is [normal distribution](https://en.wikipedia.org/wiki/Normal_distribution).
+
+$ \sigma_M = \frac{\sigma}{\sqrt{M}} \approx \frac{\sigma}{\sqrt{M-1}} $, so as number of measurements increases the SD reduces, and hence the error. if mesurement is taken only once the error is infinite.
