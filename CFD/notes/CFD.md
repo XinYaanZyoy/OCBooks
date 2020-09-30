@@ -37,3 +37,4 @@ ______________
   - [LEC7: Finite Difference Method](/OCBooks/CFD/notes/week2/lec7)
   - [LEC8: Finite Volume Method](/OCBooks/CFD/notes/week2/lec8)
   - [LEC9: General transport equation](/OCBooks/CFD/notes/week2/lec9)
+  - [LEC10: Finite Element Method](/OCBooks/CFD/notes/week2/lec10)
