@@ -27,4 +27,4 @@ ______________
     - [LEC1: 1D grid method](/OCBooks/COMPHY/notes/week2/lec1)
     - [LEC2: 2D and nD grid method](/OCBooks/COMPHY/notes/week2/lec2)
     - [LEC3: Monte Carlo method](/OCBooks/COMPHY/notes/week2/lec3)
-    - [LEC4: random number generation](/OCBooks/COMPHY/notes/week2/lec4)
+    - [LEC4: random numbers](/OCBooks/COMPHY/notes/week2/lec4)
