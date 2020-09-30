@@ -16,4 +16,6 @@ $$ I_{2D,Upper-Right} = hk \sum_{i=1}^{m}\sum_{j=1}^{n}f(a+ih,c+jk) $$
 
 and avg of all these (or trapezoidal) is central integal; (it's easier to imagine rectangles on a grid of index i and j, and cover total area.)
 
-$$ I_{2D,Central} = \frac{hk}{4} [(f(a,c)+f(b,c)+f(a,d)+f(b,d)) + (2\sum_{i=})] $$
+$$ I_{2D,Central} = \frac{hk}{4} [(f(a,c)+f(b,c)+f(a,d)+f(b,d)) + 2(\sum_{i=1}^{m-1}f(x_i,c) + \sum_{i=1}^{m-1}f(x_i,d) + \sum_{j=1}^{n-1}f(a,y_j) + \sum_{j=1}^{n-1}f(b,y_j) ) + 4(\sum_{j=1}^{n-1}\sum_{i=1}^{m-1}f(x_i,y_j)) ] $$
+
+Error of this is of order $ O(h^2) + O(k^2) $ or $ O(m^{-2}) + O(n^{-2}) $.
