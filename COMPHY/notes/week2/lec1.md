@@ -1,4 +1,4 @@
-# Numerical Integration (Stochastic Methods) Part 1
+# LEC1: 1D grid method
 
 ## 1D
 

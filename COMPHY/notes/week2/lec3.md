@@ -1,4 +1,4 @@
-# Numerical Integration (Stochastic Methods) Part 3
+# LEC3: Monte Carlo method
 
 ## nD
 
@@ -43,3 +43,7 @@ what's the PDF of $ \<f>_j $ ?
 according to [CLT](https://en.wikipedia.org/wiki/Central_limit_theorem), PDF of of $ \<f>_j $ is [normal distribution](https://en.wikipedia.org/wiki/Normal_distribution).
 
 $ \sigma_M = \frac{\sigma}{\sqrt{M}} \approx \frac{\sigma}{\sqrt{M-1}} $, so as number of measurements increases the SD reduces, and hence the error. if mesurement is taken only once the error is infinite.
+
+by comparing Monte Carlo Error with Grid based Error, we note that MC Error doesn't depend on dim of integrand but Grid based Error does.
+
+however, it's also noted that for 1D integral is more accurate under Grid based method than Monte carlo method.

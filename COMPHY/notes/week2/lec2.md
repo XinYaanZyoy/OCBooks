@@ -1,4 +1,4 @@
-# Numerical Integration (Stochastic Methods) Part 2
+# LEC2: 2D and nD grid method
 
 ## 2D
 

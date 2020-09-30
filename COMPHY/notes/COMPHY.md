@@ -24,6 +24,7 @@ ______________
 - week1: Rapid overview of Fortran programming Language
     - there was nothing to be learnt for me in this week! it's just basic recapse of fortran 90/95.
 - week2: Numerical Integration (Stochastic Methods)
-    - [LEC1](/OCBooks/COMPHY/notes/week2/lec1)
-    - [LEC2](/OCBooks/COMPHY/notes/week2/lec2)
-    - [LEC3](/OCBooks/COMPHY/notes/week2/lec3)
+    - [LEC1: 1D grid method](/OCBooks/COMPHY/notes/week2/lec1)
+    - [LEC2: 2D and nD grid method](/OCBooks/COMPHY/notes/week2/lec2)
+    - [LEC3: Monte Carlo method](/OCBooks/COMPHY/notes/week2/lec3)
+    - [LEC4: random number generation](/OCBooks/COMPHY/notes/week2/lec4)
