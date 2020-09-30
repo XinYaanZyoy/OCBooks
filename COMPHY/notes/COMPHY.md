@@ -26,3 +26,4 @@ ______________
 - week2: Numerical Integration (Stochastic Methods)
     - [LEC1](/OCBooks/COMPHY/notes/week2/lec1)
     - [LEC2](/OCBooks/COMPHY/notes/week2/lec2)
+    - [LEC3](/OCBooks/COMPHY/notes/week2/lec3)
