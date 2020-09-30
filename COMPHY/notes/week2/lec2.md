@@ -30,8 +30,8 @@ so, as dim of integral increases this (grid method) approximation accumulates mo
 Computational cost of 1D integral was $O(n)$ for n nodes, and so dD integral it's $O(n^d)$, so the computational cost increases as dim increases.
 
 to put comp cost in a perspective; suppose we've a system of 10 particles, and want to find out the normalized avg hamiltonian.
-since each particle has 3 dim, so the total dim of hamiltonian and wavefunction(and dual one) are 3X10=30, let's take 10 nodes for each dim, so the total nodes of the whole system over which the inegral is to be determined are $10^30$, let's say we have a 100Tflop comp; which means the computer can do $10^14$ floating point operations per second, then to do $10^30$ operations, it'll take $10^16$ seconds.
-compare it with the age of universe; which is $10^17$ seconds!
+since each particle has 3 dim, so the total dim of hamiltonian and wavefunction(and dual one) are 3X10=30, let's take 10 nodes for each dim, so the total nodes of the whole system over which the inegral is to be determined are $10^{30}$, let's say we have a 100Tflop comp; which means the computer can do $10^{14}$ floating point operations per second, then to do $10^{30}$ operations, it'll take $10^{16}$ seconds.
+compare it with the age of universe; which is $10^{17}$ seconds!
 
 this is a trapezoidal rule, there're many like these, e.g; simpson's 1/3, gaussian quadrature etc... those are computationally efficient, but still not fast enough or accurate enough to evaluate multi dim integrals.
 
