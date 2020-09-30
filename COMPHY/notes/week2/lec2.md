@@ -19,3 +19,12 @@ and avg of all these (or trapezoidal) is central integal; (it's easier to imagin
 $$ I_{2D,Central} = \frac{hk}{4} [(f(a,c)+f(b,c)+f(a,d)+f(b,d)) + 2(\sum_{i=1}^{m-1}f(x_i,c) + \sum_{i=1}^{m-1}f(x_i,d) + \sum_{j=1}^{n-1}f(a,y_j) + \sum_{j=1}^{n-1}f(b,y_j) ) + 4(\sum_{j=1}^{n-1}\sum_{i=1}^{m-1}f(x_i,y_j)) ] $$
 
 Error of this is of order $ O(h^2) + O(k^2) $ or $ O(m^{-2}) + O(n^{-2}) $.
+
+for a d dim integral;
+total nodes N = $n^d$ if there are n nodes in each dim.
+$ \therefore n = N^{\frac 1k} $
+Error $ \approx O(n^{-2}) \approx O(N^{\frac{-2}{k}}) $
+
+so, as dim of integral increases this (grid method) approximation accumulates more and more error!
+
+Computational cost of 1D integral was $O(n)$ for n nodes, and so dD integral it's $O(n^d)$, so the computational cost increases as dim increases.
