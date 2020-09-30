@@ -16,17 +16,17 @@ where $\prod_i^n (b_i-a_i)$ is the volume occupied by boundries of function, and
 
 $$ \therefore I = V_{n+1} = V_n <f> $$
 
-computationally $V_{n+1}$ has no problem, problem arrises in computing <f>, just the way we saw in example in last lec.
+computationally $V_{n+1}$ has no problem, problem arrises in computing \<f>, just the way we saw in example in last lec.
 
-so to compute <f>, instead of predeterministic method; in which number of nodes gets very hight to be able to finish the comp in an feasibility amount of time, we use stochastic method; in which we choose nodes randomly such that they lie within the boundaries (so within the n dim vol), then compute <f> at these random nodes!
+so to compute <f>, instead of predeterministic method; in which number of nodes gets very hight to be able to finish the comp in an feasibility amount of time, we use stochastic method; in which we choose nodes randomly such that they lie within the boundaries (so within the n dim vol), then compute \<f> at these random nodes!
 
 so we don't know what nodes are to be taken, we just know their boundry. the integration approximated this way is called **Monte Carlo Integration**.
 
-What is the error in statistical estimation of <f>?
+What is the error in statistical estimation of \<f>?
 
-Error is determined by SD (Standard Deviation) of the PDF (Prob. Distribution Func.) of <f>.
+Error is determined by SD (Standard Deviation) of the PDF (Prob. Distribution Func.) of \<f>.
 
-we take a list of random nmbers, find <f>. do this M times, and therefore we have M <f>s.
+we take a list of random nmbers, find \<f>. do this M times, and therefore we have M \<f>s.
 
 for 1D,
 
@@ -35,3 +35,7 @@ $$ <f> = \frac1M \sum_{j=1}^M <f>_j $$
 $$ <f>_j = \frac1N \sum_{i=1}^N [f(x_i)]_j $$
 
 $$ \therefore <f> = \frac{1}{MN} \sum_{j=1}^M \sum_{i=1}^N [f(x_i)]_j $$
+
+where $[]_j$ represents jth random number sequence.
+
+what's the PDF of $ <f>_j $ ?
