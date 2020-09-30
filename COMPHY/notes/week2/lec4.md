@@ -10,7 +10,7 @@ fortran compiler already has (subroutines) a predefined RNG, which is actually p
 
 ## linear congruent/modulo gen
 
-$$ x_i \equiv (a x_{i-1} + c) \mod m; i>0, x_i,a,c,m \in \mathbb{Z} $$
+$$ x_i \equiv (a x_{i-1} + c) \Mod m; i>0, x_i,a,c,m \in \mathbb{Z} $$
 
 where m determines the period; a and c are also crucial for the period, having large m with inaprpriate a and c will not guarantee randomization.
 
@@ -24,7 +24,7 @@ normal dist. so prop = 1
 
 ## tests of rand nums
 
-1. 
+1. shape of distribution
 
 $\mu$ is avg, and $\sigma$ is SD.
 
@@ -45,5 +45,20 @@ $$ \because \mu = <x^1>, \therefore \mu = \frac12 = 0.5 $$
 $$ \because \sigma = \sqrt{<x^2>-<x>^2}, \therefore \sigma = \frac{1}{\sqrt{12}} = 0.2886 $$
 
 
-2. 
+2. degree of correlation (autocorrelation func)
+
+$$ c_k = \frac{\<x_{i+k}x_i>-\<x_i>^2}{\sigma}; \<x_{i+k}x_i> = \frac{\sum_{i=1}^{N-k} x_ix_{i+k}}{N-k} $$
+
+correlation of a number with itself is when k=0, therefore when $C_k = 1$; a high correlation as expected.
+
+for uncorrelated numbers we expect ideally $C_k = 0$, and numerically (reality) $C_k \to 0$
+
+so as k increases $c_k$ should converge to 0.
+
+
+3. scatter plot
+a simple way to determine the correlation by plotting $x_i$ and $x_i +1$ and see if there's no pattern.
+
+
+## in ForTran
 
