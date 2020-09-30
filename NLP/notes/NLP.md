@@ -24,3 +24,5 @@ ______________
   - [week2: Sentiment Analysis with Naïve Bayes](/OCBooks/NLP/notes/course1/week2)
   - [week3: Vector Space Models](/OCBooks/NLP/notes/course1/week3)
   - [week4: Machine Translation and Document Search](/OCBooks/NLP/notes/course1/week4)
+- course2: Natural Language Processing with Probabilistic Models
+  - [week1: Autocorrect and Minimum Edit Distance](/OCBooks/NLP/notes/course2/week1)

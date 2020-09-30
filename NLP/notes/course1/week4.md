@@ -65,6 +65,10 @@ $$ hash = \sum_i^H 2^i h_i $$
 _______________
 
 
+## Ungraded Lab: Hash tables
+[notebook](https://github.com/XinYaanZyoy/OCBooks/blob/master/NLP/data/NLP_C1_W4_lecture_nb_02.ipynb)
+
+
 ## Approximate nearest neighbors
 but how to find an appropriate lines/planes/hyperplanes which classifies the way previously mentioned?
 there might be multiple way to do this, which one is best?
