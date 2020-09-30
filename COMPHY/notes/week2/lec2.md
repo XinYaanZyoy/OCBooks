@@ -22,9 +22,21 @@ Error of this is of order $ O(h^2) + O(k^2) $ or $ O(m^{-2}) + O(n^{-2}) $.
 
 for a d dim integral;
 total nodes N = $n^d$ if there are n nodes in each dim.
-$ \therefore n = N^{\frac 1k} $
-Error $ \approx O(n^{-2}) \approx O(N^{\frac{-2}{k}}) $
+
+$ \therefore n = N^{\frac 1k} $, Error $ \approx O(n^{-2}) \approx O(N^{\frac{-2}{k}}) $
 
 so, as dim of integral increases this (grid method) approximation accumulates more and more error!
 
 Computational cost of 1D integral was $O(n)$ for n nodes, and so dD integral it's $O(n^d)$, so the computational cost increases as dim increases.
+
+to put comp cost in a perspective; suppose we've a system of 10 particles, and want to find out the normalized avg hamiltonian.
+since each particle has 3 dim, so the total dim of hamiltonian and wavefunction(and dual one) are 3X10=30, let's take 10 nodes for each dim, so the total nodes of the whole system over which the inegral is to be determined are $10^30$, let's say we have a 100Tflop comp; which means the computer can do $10^14^ floating point operations per second, then to do $10^30$ operations, it'll take $10^16$ seconds.
+compare it with the age of universe; which is $10^17$ seconds!
+
+this is a trapezoidal rule, there're many like these, e.g; simpson's 1/3, gaussian quadrature etc... those are computationally efficient, but still not fast enough or accurate enough to evaluate multi dim integrals.
+
+these mathods are deterministic (grid based), becuase we've a predetermined points where to evaluate integrals.
+
+the answer to the feasibility and accuracy is "stochastic methods"!
+
+use $ \integral_0^1 \frac{1}{1+x^2} dx = \frac{\pi}{4}$
