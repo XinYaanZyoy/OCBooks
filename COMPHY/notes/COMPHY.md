@@ -31,3 +31,4 @@ ______________
     - LEC5: in ForTran, simple!
 - week3: Numerical Integration (Stochastic Methods)
     - [LEC1: Hit or Miss Method](/OCBooks/COMPHY/notes/week3/lec1)
+    - [LEC2: ]
