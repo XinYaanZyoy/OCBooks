@@ -27,4 +27,6 @@ fraction = s/N
 I = (b-a)*(f(b)-f(a))*fraction
 ```
 
+[riemann_int_trapezoidal](https://github.com/XinYaanZyoy/OCBooks/blob/master/COMPHY/data/riemann_int_trapezoidal.f90)
 [Monte_Carlo_int_trapezoidal](https://github.com/XinYaanZyoy/OCBooks/blob/master/COMPHY/data/Monte_Carlo_int_trapezoidal.f90)
+[Monte_Carlo_int_Hit_Miss](https://github.com/XinYaanZyoy/OCBooks/blob/master/COMPHY/data/Monte_Carlo_int_Hit_Miss.f90)
