@@ -60,3 +60,5 @@ a simple way to determine the correlation by plotting $x_i$ and $x_i +1$ and see
 
 ## in ForTran
 
+[RNG.f90](https://github.com/XinYaanZyoy/OCBooks/blob/master/COMPHY/data/RNG.f90)
+[test_RNG.f90](https://github.com/XinYaanZyoy/OCBooks/blob/master/COMPHY/data/test_RNG.f90)
