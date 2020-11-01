@@ -17,6 +17,7 @@ permalink: /COMPHY
 **NOTE**: *if you find anything inappropriate here kindly contact me at XinYaanZyoy@gmail.com*
 
 **REFERENCES**: 
+    - ["Introduction to Computational Physics" by Richard Fitzpatrick, The University of Texas at Austin](http://farside.ph.utexas.edu/teaching/329/329.html)
     - ["A First Course in Computational Physics" by Paul L. DeVries, Miami University, Oxford, Ohio.](https://archive.org/details/PaulLDeVriesAFirstCourseInComputationalPhysicsWiley1984)
     
 ______________
@@ -32,3 +33,8 @@ ______________
 - week3: Numerical Integration (Stochastic Methods)
     - [LEC1: Hit or Miss Method](/OCBooks/COMPHY/notes/week3/lec1)
     - [LEC2: ]
+
+
+
+- Book: "Introduction to Computational Physics" by Richard Fitzpatrick
+    - [Integration of ODEs](/OCBooks/COMPHY/notes/book/ch3)
