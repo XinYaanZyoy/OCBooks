@@ -41,7 +41,7 @@ for large h, the truncation error dominates, but at small h, the round-off error
 
 the minimum of the error would tell us that, we can minimize the error of our computation less than that!
 which is 
-$$ dot{\epsilon} = 0 = 1 - \frac{\eta}{h^2} \\ h = h_0 \sim \eta^{\frac{1}{2}} $$
+$$ \dot{\epsilon} = 0 = 1 - \frac{\eta}{h^2} \\ h = h_0 \sim \eta^{\frac{1}{2}} $$
 $h_0$ here is the minumum error; which is function only of the computer level constant and not mathematical constant, we can compute with. making h less than that would instead incerease the error not deacrese.
 
 $\eta$ which determins the minimum step length is the constant for a given computer, and it depends on how many bytes the computer hardware uses to store floating-point numbers.
