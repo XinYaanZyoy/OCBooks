@@ -19,6 +19,7 @@ permalink: /COMPHY
 **REFERENCES**: 
     - ["Introduction to Computational Physics" by Richard Fitzpatrick, The University of Texas at Austin](http://farside.ph.utexas.edu/teaching/329/329.html)
     - ["A First Course in Computational Physics" by Paul L. DeVries, Miami University, Oxford, Ohio.](https://archive.org/details/PaulLDeVriesAFirstCourseInComputationalPhysicsWiley1984)
+    - ["Computational Physics" by Konstantinos N. Anagnostopoulos, National Technical University of Athens](http://www.physics.ntua.gr/~konstant/ComputationalPhysics/Book/ComputationalPhysicsKNA.pdf)
     
 ______________
 ## INDEX
@@ -32,9 +33,3 @@ ______________
     - LEC5: in ForTran, simple!
 - week3: Numerical Integration (Stochastic Methods)
     - [LEC1: Hit or Miss Method](/OCBooks/COMPHY/notes/week3/lec1)
-    - [LEC2: ]
-
-
-
-- Book: "Introduction to Computational Physics" by Richard Fitzpatrick
-    - [Integration of ODEs](/OCBooks/COMPHY/notes/book/ch3)
