@@ -3,6 +3,7 @@ title: OCBooks
 layout: default
 
 ---
+
 ## these are notes written by myself while taking online courses.
 
 **DISCLAIMER**: *these notes doesn't include solutions to any quizzes or assignments of any courses, instead these are a neat and descriptive essays after what i learned from the courses! it does; however, include **a guide** to those graded assignments in a general sense; still if you find anything inappropriate here kindly contact me at XinYaanZyoy@gmail.com*
@@ -13,6 +14,7 @@ layout: default
 - [CFD](/OCBooks/CFD)
 - [COMPHY](/OCBooks/COMPHY)
 - [Ashtadhyayi](/OCBooks/Ashtadhyayi)
+
 ________________
 
 
@@ -29,6 +31,7 @@ these are incomplete and highly ineffective for learning, i use it just to build
 
 
 ____________________
+
 author: [XinYaanZyoy](https://XinYaanZyoy.github.io)
 
 Copyright: these notes are my own, but if you think i'm violating any law for any of the content under (and not above) */OCBooks/, kindly contact me at XinYaanZyoy@gmail.com
