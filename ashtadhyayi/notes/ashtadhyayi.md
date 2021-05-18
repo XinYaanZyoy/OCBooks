@@ -1,35 +1,30 @@
 ---
 title: Ashtadhyayi
-permalink: /Ashtadhyayi
+permalink: /ashtadhyayi
 ---
 
 # Panini's Ashtadhyayi Grammar
-- course: [Ashtadhyayi](https://onlinecourses.nptel.ac.in/noc20_ph20)
-- platform: [SWAYAM](https://swayam.gov.in/)
-- provider: [IIT Kharagpur](https://www.iiserpune.ac.in/)
+- course: [Ashtadhyayi](https://www.youtube.com/channel/UCYWSU0IMTLiX2Ftr3Y3jNdw)
+- platform: [YouTube](https://www.youtube.com/)
+- provider: [Advaita Academy](https://www.advaita-academy.org/)
 - description:  
-- instructors:
-  - [Prof. Prasenjit Ghosh](https://www.iiserpune.ac.in/people/faculty-details/73)
-- Start Date: 2020 SEP 05
+- instructor: Sri NCT Acharyulu
+- Start Date: 2021 MAY 18
 - End Date:
-- final certificate:
 
 **NOTE**: *if you find anything inappropriate here kindly contact me at XinYaanZyoy@gmail.com*
 
 **REFERENCES**: 
-    - ["Introduction to Computational Physics" by Richard Fitzpatrick, The University of Texas at Austin](http://farside.ph.utexas.edu/teaching/329/329.html)
-    - ["A First Course in Computational Physics" by Paul L. DeVries, Miami University, Oxford, Ohio.](https://archive.org/details/PaulLDeVriesAFirstCourseInComputationalPhysicsWiley1984)
-    - ["Computational Physics" by Konstantinos N. Anagnostopoulos, National Technical University of Athens](http://www.physics.ntua.gr/~konstant/ComputationalPhysics/Book/ComputationalPhysicsKNA.pdf)
+    - [WEB: Ashtadhyayi.com](https://ashtadhyayi.com/)
+    - [WEB: The Structure of the Aṣṭādhyāyī](https://www.learnsanskrit.org/panini/structure/)
+    - [Course: अष्टाध्यायीप्रवेशः Aṣṭādhyāyīpraveśaḥ](https://www.sanskritfromhome.in/course/ashtadhyayipravesha/)
+    - [Vol 1 Ch 1-4 "The Ashtadhyayi of Panini" by Late SRISA CHANDRA VASU](https://archive.org/details/dli.ernet.285912)
+    - [Vol 2 Ch 5-8 "The Ashtadhyayi of Panini" by Late SRISA CHANDRA VASU](https://archive.org/details/dli.ernet.285913)
     
 ______________
 ## INDEX
-- week1: Rapid overview of Fortran programming Language
-    - there was nothing to be learnt for me in this week! it's just basic recapse of fortran 90/95.
-- week2: Random Number generation and testing
-    - [LEC1: 1D grid method](/OCBooks/COMPHY/notes/week2/lec1)
-    - [LEC2: 2D and nD grid method](/OCBooks/COMPHY/notes/week2/lec2)
-    - [LEC3: Monte Carlo method](/OCBooks/COMPHY/notes/week2/lec3)
-    - [LEC4: random numbers](/OCBooks/COMPHY/notes/week2/lec4)
-    - LEC5: in ForTran, simple!
-- week3: Numerical Integration (Stochastic Methods)
-    - [LEC1: Hit or Miss Method](/OCBooks/COMPHY/notes/week3/lec1)
+- Part 1: 
+    - [Intro](/OCBooks/ashtadhyayi/notes/part1/lec0)
+    - [LEC1](/OCBooks/ashtadhyayi/notes/part1/lec1)
+    - [LEC2](/OCBooks/ashtadhyayi/notes/part1/lec2)
+- Part 2:
