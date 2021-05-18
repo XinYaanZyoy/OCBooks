@@ -15,11 +15,11 @@ permalink: /ashtadhyayi
 **NOTE**: *if you find anything inappropriate here kindly contact me at XinYaanZyoy@gmail.com*
 
 **REFERENCES**: 
-    - [WEB: Ashtadhyayi.com](https://ashtadhyayi.com/)
-    - [WEB: The Structure of the Aṣṭādhyāyī](https://www.learnsanskrit.org/panini/structure/)
-    - [Course: अष्टाध्यायीप्रवेशः Aṣṭādhyāyīpraveśaḥ](https://www.sanskritfromhome.in/course/ashtadhyayipravesha/)
-    - [Vol 1 Ch 1-4 "The Ashtadhyayi of Panini" by Late SRISA CHANDRA VASU](https://archive.org/details/dli.ernet.285912)
-    - [Vol 2 Ch 5-8 "The Ashtadhyayi of Panini" by Late SRISA CHANDRA VASU](https://archive.org/details/dli.ernet.285913)
+- [WEB: Ashtadhyayi.com](https://ashtadhyayi.com/)
+- [WEB: The Structure of the Aṣṭādhyāyī](https://www.learnsanskrit.org/panini/structure/)
+- [Course: अष्टाध्यायीप्रवेशः Aṣṭādhyāyīpraveśaḥ](https://www.sanskritfromhome.in/course/ashtadhyayipravesha/)
+- [Vol 1 Ch 1-4 "The Ashtadhyayi of Panini" by Late SRISA CHANDRA VASU](https://archive.org/details/dli.ernet.285912)
+- [Vol 2 Ch 5-8 "The Ashtadhyayi of Panini" by Late SRISA CHANDRA VASU](https://archive.org/details/dli.ernet.285913)
     
 ______________
 
