@@ -13,7 +13,7 @@ layout: default
 - [NLP](/OCBooks/NLP)
 - [CFD](/OCBooks/CFD)
 - [COMPHY](/OCBooks/COMPHY)
-- [Ashtadhyayi](/OCBooks/Ashtadhyayi)
+- [ashtadhyayi](/OCBooks/ashtadhyayi)
 
 ________________
 
