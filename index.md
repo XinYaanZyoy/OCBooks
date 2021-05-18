@@ -12,14 +12,14 @@ layout: default
 - [NLP](/OCBooks/NLP)
 - [CFD](/OCBooks/CFD)
 - [COMPHY](/OCBooks/COMPHY)
-
+- [Ashtadhyayi](/OCBooks/Ashtadhyayi)
 ________________
 *NOTE: these notebooks are not meant to teach to anyone, these are just my personal notes, only reason to host it on the internet is a hope! a hope of helping someone who needs it, though these are not rigorous (if science topic) or complete (if other topics) these notes may draw a pattern in reader's mind to be able to learn it somewhere else with ease.*
 
 **THE PURPOSE**
 > self written notebooks while either reading or watching something new, helps me learn it by connecting the dots!
 
-if you're seeking something complete and rigorous set of subjects, forming a web of all the nodes being various subjects on this planet, checkout my another hosted notebooks collections [Koham](/KoHam)
+these are incomplete and highly ineffective for learning, i use it just to build a kind of vocab, and therefore if you're seeking something complete and rigorous set of subjects, forming a web of all the nodes being various subjects on this planet, checkout my another hosted notebooks collections [Koham](/KoHam)
 
 
 **REFS**
