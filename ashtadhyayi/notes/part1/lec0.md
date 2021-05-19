@@ -50,5 +50,15 @@ all the ancient shastras are written in sutras. characteristics of sutras are:
 
 the first chapter of first book contains 74 sutras, and 53 are discussed here, remaining will be discussed later.
 
-there are 6 various types of sutras(in concrete to abstract order):
-- 
+there are 6 various types ([ref](https://www.learnsanskrit.org/panini/structure/)) of sutras(in concrete to abstract order):
+- Samgnya (Definition)
+- Vidhi (general method or rule)
+- Niyam (exception or contradiction of the previous vidhi)
+- Atidesh (copying the properties of another, sort of like Objects of Classess share the same property with extra local information)
+- Adhikaar (specification of what follows)
+    - Anuvrutti (range of Adhikaar)
+- Paribhaasa (statement about interpretation of other rules)
+
+Shiva(Maheshwara) Sutrani ([ref](https://www.youtube.com/watch?v=3B6-u8c7Xp8)):
+> `अइउण् ऋऌक् एओङ् ऐऔच् हयवरट् लण् ञमङणनम् झभञ् घढधष् जबगडदश् खफछठथचटतव् कपय् शषसर् हल्`
+

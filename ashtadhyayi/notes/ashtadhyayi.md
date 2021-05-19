@@ -4,7 +4,7 @@ permalink: /ashtadhyayi
 ---
 
 # Panini's Ashtadhyayi Grammar
-- course: [Ashtadhyayi](https://www.youtube.com/channel/UCYWSU0IMTLiX2Ftr3Y3jNdw)
+- course: Ashtadhyayi (Part [1](https://www.youtube.com/watch?v=3f1WKovrtvY&list=PLWjpkY4mU2RDgcakdhrrC8mUIqkaosEDU) [2](https://www.youtube.com/watch?v=jZP2ZBV909E&list=PLWjpkY4mU2RAi2ZAWY7aNKWqmmGhi-zzq) [3](https://www.youtube.com/watch?v=NUHH1bZd9Is&list=PLWjpkY4mU2RBVFmdZM_o6YH7ZSoF8YPoQ) [4](https://www.youtube.com/watch?v=YdcTJmGMNow&list=PLWjpkY4mU2RDbYsnxSd2BYUiPUJf1YWNb))
 - platform: [YouTube](https://www.youtube.com/)
 - provider: [Advaita Academy](https://www.advaita-academy.org/)
 - description:  
@@ -16,10 +16,10 @@ permalink: /ashtadhyayi
 
 **REFERENCES**: 
 - [WEB: Ashtadhyayi.com](https://ashtadhyayi.com/)
-- [WEB: The Structure of the Aṣṭādhyāyī](https://www.learnsanskrit.org/panini/structure/)
-- [Course: अष्टाध्यायीप्रवेशः Aṣṭādhyāyīpraveśaḥ](https://www.sanskritfromhome.in/course/ashtadhyayipravesha/)
 - [Vol 1 Ch 1-4 "The Ashtadhyayi of Panini" by Late SRISA CHANDRA VASU](https://archive.org/details/dli.ernet.285912)
 - [Vol 2 Ch 5-8 "The Ashtadhyayi of Panini" by Late SRISA CHANDRA VASU](https://archive.org/details/dli.ernet.285913)
+- [WEB: The Structure of the Aṣṭādhyāyī](https://www.learnsanskrit.org/panini/structure/)
+- [Course: अष्टाध्यायीप्रवेशः Aṣṭādhyāyīpraveśaḥ](https://www.sanskritfromhome.in/course/ashtadhyayipravesha/)
     
 ______________
 
