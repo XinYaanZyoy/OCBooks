@@ -23,9 +23,11 @@ permalink: /ashtadhyayi
     
 ______________
 
+**NOTE**: *index names are an approximation of the contents of a lecture.*
+
 ## INDEX
 - Part 1: 
-    - [Intro](/OCBooks/ashtadhyayi/notes/part1/lec0)
-    - [LEC1](/OCBooks/ashtadhyayi/notes/part1/lec1)
+    - [LEC0: Introduction](/OCBooks/ashtadhyayi/notes/part1/lec0)
+    - [LEC1: Pratyaahaarasutraani](/OCBooks/ashtadhyayi/notes/part1/lec1)
     - [LEC2](/OCBooks/ashtadhyayi/notes/part1/lec2)
 - Part 2:
