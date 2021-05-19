@@ -21,17 +21,33 @@ we begin the study of Ashtadhyayi now.
 
 blinking is taken to be the unit of time called "maatraa".
 short (laghu or hrashva) is of 1 maatraa and long (dirgha) is of 2 maatraas.
+vowels are two and consonants are of half maatraa.
 there exist 3 maatraas too! it's used to address a person.
 
-त् kaaraa after the letter signifies what to take long or short, it's long in our case.
-it also matter what follows त् kaaraa. in our case it's long ऐच् = ऐ and औ from the 4th Shivasutra, though we don't have long and short versions of ऐ and औ!
+त् kaaraa after the letter indicates what to take long or short, it's long in our case.
+it also matters what follows त् kaaraa. in our case it's long ऐच् = ऐ and औ from the 4th Shivasutra, though we don't have long and short versions of ऐ and औ!
 
 the definition of वृद्धिः not only includes आ, ऐ and औ, that are drawn from the alphabets(varnmaalaa) but also those आ, ऐ and औ, that are built from conjuctions, e.g. अ + ए = ऎ.
 
 
-## 1.1.2 अदेङ्गुणः
+# 1.1.2 अदेङ्गुणः
 (definition) The letters अ, ए and ओ are called 'गुण'.
 
 अद् + एङ् + गुणः = अत् + एङ् + गुणः
 
 from the 3rd shivasutra एङ् = ए and ओ.
+
+
+# 1.1.3 इको गुणवृद्धी
+(interpretation) If the words गुण or वृद्धि are used to denote the operation of गुणादेश or वृद्धि-आदेश without specifying where such an आदेश happens, then this आदेश should be done in place of the 'इक्' letter.
+
+इकः + गुण-वृद्धी
+
+इक् is a pratyaahaara from shivasutra which stands for इ, उ, ऋ, and ऌ.
+
+the old letter is called "sthaani" and the new letter is called "aadesha".
+
+
+# 1.1.4 न धातुलोप आर्धधातुके
+If a part of धातु gets removed due to an आर्धधातुक प्रत्यय, then that प्रत्यय cannot cause any गुण or वृद्धि on the remaining part of that धातु.
+(learn later)

@@ -29,5 +29,5 @@ ______________
 - Part 1: 
     - [LEC0: Introduction](/OCBooks/ashtadhyayi/notes/part1/lec0)
     - [LEC1: Pratyaahaarasutraani](/OCBooks/ashtadhyayi/notes/part1/lec1)
-    - [LEC2](/OCBooks/ashtadhyayi/notes/part1/lec2)
+    - [LEC2: 1.1.5](/OCBooks/ashtadhyayi/notes/part1/lec2)
 - Part 2:

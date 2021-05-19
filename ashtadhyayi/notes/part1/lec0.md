@@ -60,7 +60,7 @@ there are 6 various types ([ref](https://www.learnsanskrit.org/panini/structure/
 - Paribhaasa (statement about interpretation of other rules)
 
 Shiva(Maheshwara) Sutrani ([ref](https://www.youtube.com/watch?v=3B6-u8c7Xp8)):
-> # `अइउण् ऋऌक् एओङ् ऐऔच् हयवरट् लण् ञमङणनम् झभञ् घढधष् जबगडदश् खफछठथचटतव् कपय् शषसर् हल्`
+> ## `अइउण् ऋऌक् एओङ् ऐऔच् हयवरट् लण् ञमङणनम् झभञ् घढधष् जबगडदश् खफछठथचटतव् कपय् शषसर् हल्`
 
 ## ॥ नृत्तावसाने नटराजराजो ननाद ढक्कां नवपञ्चवारम् ।
 ## उद्धर्तुकामः सनकादिसिद्धान् एतद्विमर्शे शिवसूत्रजालम् ॥
