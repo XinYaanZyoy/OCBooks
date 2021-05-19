@@ -60,5 +60,12 @@ there are 6 various types ([ref](https://www.learnsanskrit.org/panini/structure/
 - Paribhaasa (statement about interpretation of other rules)
 
 Shiva(Maheshwara) Sutrani ([ref](https://www.youtube.com/watch?v=3B6-u8c7Xp8)):
-> `अइउण् ऋऌक् एओङ् ऐऔच् हयवरट् लण् ञमङणनम् झभञ् घढधष् जबगडदश् खफछठथचटतव् कपय् शषसर् हल्`
+> # `अइउण् ऋऌक् एओङ् ऐऔच् हयवरट् लण् ञमङणनम् झभञ् घढधष् जबगडदश् खफछठथचटतव् कपय् शषसर् हल्`
 
+## ॥ नृत्तावसाने नटराजराजो ननाद ढक्कां नवपञ्चवारम् ।
+## उद्धर्तुकामः सनकादिसिद्धान् एतद्विमर्शे शिवसूत्रजालम् ॥
+([ref](https://ashtadhyayi.com/shivasutra/))
+
+these 14 padas are believed to be the sound of shiva's Damaru. 14 different times the damru is played. each time a single kind of sound, and this sound is taken to be composition of letters, this sound/word/pada is then taken as an "axiom" rule, out which we construct the whole grammar. out of this sequence we build a subset of it by just mentioning the first and last letter, which is known as Pratyahara. Shiva is beilived be the knower of the eternal knowledge. He played his Damru after the Celestial Dance, the sound of which created this existence is what's beileved.
+
+the last letter of all the 14 words is called "itta"(that which vanishes). "kara" refers to the building block of a consonant, e.g. क=क्+अ that is क is क् kara and अ kara. it's almost difficult/impossible to pronounce क् kara alone.
