@@ -14,6 +14,7 @@ layout: default
 - [CFD](/OCBooks/CFD)
 - [COMPHY](/OCBooks/COMPHY)
 - [ashtadhyayi](/OCBooks/ashtadhyayi)
+- [Siddhanta Kaumudi](/OCBooks/kaumudi)
 
 ________________
 
