@@ -19,7 +19,9 @@ permalink: /ashtadhyayi
 - [Vol 1 Ch 1-4 "The Ashtadhyayi of Panini" by Late SRISA CHANDRA VASU](https://archive.org/details/dli.ernet.285912)
 - [Vol 2 Ch 5-8 "The Ashtadhyayi of Panini" by Late SRISA CHANDRA VASU](https://archive.org/details/dli.ernet.285913)
 - [WEB: The Structure of the Aṣṭādhyāyī](https://www.learnsanskrit.org/panini/structure/)
+- ["Mathematical Structures in Panini’s Ashtaadhyaayi" by Bhaskar H Kompella](https://archive.org/details/panini-article-for-pub)
 - [Course: अष्टाध्यायीप्रवेशः Aṣṭādhyāyīpraveśaḥ](https://www.sanskritfromhome.in/course/ashtadhyayipravesha/)
+- ["A Higher Sanskrit Grammar" by M. R. Kale](https://archive.org/details/highersanskritgr00kaleuoft/)
     
 ______________
 
